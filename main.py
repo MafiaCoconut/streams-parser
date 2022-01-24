@@ -39,55 +39,41 @@ def working_with_databases():
     print()
 
 
-def working_with_youtube(data_youtube, name):
-    print("Трансляции YouTube:")
-    print()
-    for i in range(len(data_youtube[name])):
-        print(f'Трансляция №{i+1}')
-        print(f'   Название трансляции: {data_youtube[name][i]["video title"]}')
-        print(f'   Автор: {data_youtube[name][i]["channel name"]}')
-        print(f'   Ссылка на  трансляцию: {data_youtube[name][i]["url"]}')
-        print()
-    working_with_streams()
-
-
 def working_with_streams():
-    print("Выберите платформу на которой искать стримы:")
+    games_name = games_name_get()
+    name = input('Введите название игры: ')
+    while True:
+        print()
+        if name == '0':
+            start()
+        elif name in games_name:
+            break
+        else:
+            print('Такой игры нет, попробуйте ещё раз или наберите "0"')
+            print()
+        name = input('Введите название игры: ')
+
+        # name = 'Apex Legends'
+
+    print(f"Выберите платформу на которой искать стримы по игре '{name}':")
     print("   1. YouTube")
     print("   2. Facebook Gaming")
     print("   3. Искать везде")
     print()
     print("   0. Вернуться назад")
+    print()
 
-    com = -1
     while True:
         com = input("Введите номер команды: ")
+        print()
         if com == "1":
-            break
+            youtube.streams(name)
         elif com == "2":
-            break
+            start()
         elif com == "3":
-            break
+            start()
         elif com == "0":
             start()
-
-
-    data_youtube = youtube.data_get()
-    # data_facebook_gaming = data_get()
-
-    name = input('Введите название игры:')
-    while True:
-        if name == 'exit':
-            start()
-        elif name in data_youtube:
-            break
-        else:
-            print('Такой игры нет, попробуйте ещё раз или наберите "exit"')
-            print()
-        name = input('Введите название игры:')
-        # name = 'Apex Legends'
-
-    working_with_youtube(data_youtube, name)
 
 
 def working_with_games_name():
@@ -143,7 +129,7 @@ def start():
             recommendations()
             break
         elif command == '0':
-            break
+            exit()
         else:
             print("Команда не распознана, попробуйте ещё раз")
             print()

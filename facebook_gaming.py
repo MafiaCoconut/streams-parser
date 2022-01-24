@@ -1,3 +1,12 @@
+import requests
+from requests.auth import HTTPBasicAuth
+import json
+import sqlite3
+
+from bs4 import BeautifulSoup
+import information
+import main
+
 def get_data(url):
     driver = webdriver.Edge('msedgedriver.exe')
     driver.get(url)

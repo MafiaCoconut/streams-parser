@@ -16,7 +16,7 @@ def data_get():
 
 def games_name_set(name):
     with open('data/games_name', 'a', encoding='utf-8') as file:
-        word = name+';'
+        word = name + ';'
         file.write(word)
 
 
@@ -62,7 +62,7 @@ def update_data():
     for game in range(50):
         name = urls[game][1]
         if game % 10 == 0:
-            print(f'Загружено: {game*2}%')
+            print(f'Загружено: {game * 2}%')
 
         req1 = requests.get(urls[game][0])
         lst1 = req1.text.split('"')
@@ -114,3 +114,16 @@ def update_data():
             data[name].append({'channel name': ch_name, 'video title': title, 'url': url})
         with open(information.youtube, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
+
+
+def streams(name):
+    data_youtube = data_get()
+    print("Трансляции YouTube:")
+    print()
+    for i in range(len(data_youtube[name])):
+        print(f'Трансляция №{i + 1}')
+        print(f'   Название трансляции: {data_youtube[name][i]["video title"]}')
+        print(f'   Автор: {data_youtube[name][i]["channel name"]}')
+        print(f'   Ссылка на  трансляцию: {data_youtube[name][i]["url"]}')
+        print()
+    main.working_with_streams()
