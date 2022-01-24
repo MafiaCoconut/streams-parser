@@ -21,6 +21,7 @@ def games_name_get():
 
 def working_with_databases():
     print('Обновить базу данных?')
+    print(f'Последнее изменение {information.database_time["youtube"]}')
     print('1. Да   /   2. Нет')
     while True:
         command = input()

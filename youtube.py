@@ -1,8 +1,6 @@
 import requests
-from requests.auth import HTTPBasicAuth
 import json
-import sqlite3
-
+import datetime
 from bs4 import BeautifulSoup
 import information
 import main
@@ -31,11 +29,6 @@ def update_data():
     get_data()
     with open('data/project.html', encoding='utf-8') as file:
         soup = BeautifulSoup(file.read(), 'lxml')
-    # print(page)
-
-    # Работа на прямую с сайтом
-    # page = requests.get(url, headers=headers)
-    # soup = BeautifulSoup(page.text, 'lxml')
 
     scripts = soup.find('body').find_all('script')
     items = scripts[13]
@@ -114,6 +107,10 @@ def update_data():
             data[name].append({'channel name': ch_name, 'video title': title, 'url': url})
         with open(information.youtube, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
+
+    # Обновление информации изменения последнего обновления БД
+    now = datetime.datetime.now()
+    information.database_time['youtube'] = str(now)
 
 
 def streams(name):
