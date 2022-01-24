@@ -14,8 +14,8 @@ headers = {
     'accept': 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     "user-agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61 (Edition Yx GX 03)'
 }
-
-
+youtube = 'data/youtube.json'
+facebook_gaming = 'data/facebook_gaming.json'
 def public(uuid=0):
     lst = ['Apex Legends', 'Garena Free Fire', 'Battlegrounds Mobile India', 'Minecraft', 'Grand Theft Auto V', 'Mario Kart 8 Deluxe', 'Fate/Grand Order', 'Fortnite', 'League of Legends', 'Super Smash Bros. Ultimate', 'Lineage W', 'Roblox', 'PUBG MOBILE', 'Gates of Olympus Slot Pragmatic', 'Dota 2', 'World of Tanks', 'Knives Out', 'Counter-Strike: Global Offensive', 'BeamNG.drive', 'Valorant', 'Animal Crossing: New Horizons', 'Friday Night Funkin’', 'PlayerUnknown’s Battlegrounds', 'Pokémon Unite', 'ARK: Survival Evolved', 'Genshin Impact', 'Shadowverse', 'Dead by Daylight', 'Pokémon Brilliant Diamond and Shining Pearl', 'Puyo Puyo Champions', 'Arena of Valor', 'Garena Free Fire MAX', 'PUBG MOBILE LITE', 'Uma Musume: Pretty Derby', 'FIFA 22', 'Lineage2M', 'Resident Evil 5', 'Candy Crush Saga', 'Ragnarök Online', 'Lost Ark', 'Poppy Playtime', 'Red Ball 4', 'Ball Run 2048', 'Grand Theft Auto: San Andreas', 'Slot Pragmatic Play Aztec Gems', 'Brawl Stars', 'StarCraft: Remastered', 'Dragon Quest XI', 'Plants vs. Zombies', 'Diablo II: Resurrected']
 
@@ -58,7 +58,7 @@ def public(uuid=0):
 
 
 def data_get():
-    with open("data/data.json", encoding='utf-8') as file:
+    with open(youtube, encoding='utf-8') as file:
         data = json.load(file)
     return data
 
@@ -171,7 +171,7 @@ def update_data():
             title = mic_data[z][0]
             url = mic_data[z][2]
             data[name].append({'channel name': ch_name, 'video title': title, 'url': url})
-        with open('data/data.json', 'w', encoding='utf-8') as file:
+        with open(youtube, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
 
 
@@ -285,5 +285,7 @@ def main():
     """
     pyautogui.hotkey('command', 'l')
     """
+
+
 if __name__ == '__main__':
     main()
