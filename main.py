@@ -7,8 +7,10 @@ import os
 import re
 import time
 from bs4 import BeautifulSoup
+
 import youtube
 import information
+import text_and_commands
 
 # from selenium import webdriver
 
@@ -31,13 +33,10 @@ def working_with_databases():
             print('База данных обновлена')
             print()
             start()
-            break
         elif command == '2':
             start()
-            break
         else:
             print('Команда не распознана, попробуйте ещё раз')
-    print()
 
 
 def working_with_streams():
@@ -54,15 +53,7 @@ def working_with_streams():
             print()
         name = input('Введите название игры: ')
 
-        # name = 'Apex Legends'
-
-    print(f"Выберите платформу на которой искать стримы по игре '{name}':")
-    print("   1. YouTube")
-    print("   2. Facebook Gaming")
-    print("   3. Искать везде")
-    print()
-    print("   0. Вернуться назад")
-    print()
+    text_and_commands.choosing_a_platform(name)
 
     while True:
         com = input("Введите номер команды: ")
@@ -83,7 +74,7 @@ def working_with_games_name():
     for i in range(0, len(games_name), 3):
         for j in range(3):
             try:
-                print(games_name[i+j], end='; ')
+                print(games_name[i + j], end='; ')
             except:
                 break
         print()
@@ -91,44 +82,20 @@ def working_with_games_name():
     start()
 
 
-def recommendations():
-    print("Перед началом работы, рекомендуется обновить базу данных в пункте №1 на стартовом экране.")
-    print("Далее рекомендуется, в ситуации когда вы не помните полное название игры, запросить список названий игр.")
-    print("Если программы пишет что игры нет в списке, то возможно стримы по игре сейчас находятся не в топ 50 самых "
-          "популярных играх.")
-    print("Приятного использования программы!!!")
-    print()
-    start()
-
-
 def start():
-    print('Выберите команду:')
-    print("   1. Работа с базой данных")
-    print("   2. Получение информации о трасляциях")
-    print("   3. Получение списка названий всех игр")
-    print()
-    print("   9. Рекомендации")
-    print("   0. Выход")
-    print()
+    text_and_commands.main_menu()
 
     while True:
         command = input("Введите номер команды: ")
+        print()
         if command == '1':
-            print()
             working_with_databases()
-            break
         elif command == '2':
-            print()
             working_with_streams()
-            break
         elif command == '3':
-            print()
             working_with_games_name()
-            break
         elif command == '9':
-            print()
-            recommendations()
-            break
+            text_and_commands.recommendations()
         elif command == '0':
             exit()
         else:
