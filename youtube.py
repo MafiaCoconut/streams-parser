@@ -12,6 +12,12 @@ def data_get():
     return data
 
 
+def games_name_get():
+    with open('data/games_name', 'r', encoding='utf-8') as file:
+        games_name = list(file.read().split(';'))
+    return games_name
+
+
 def games_name_set(name):
     with open('data/games_name', 'a', encoding='utf-8') as file:
         word = name + ';'
@@ -32,13 +38,13 @@ def update_data():
 
     scripts = soup.find('body').find_all('script')
     items = scripts[13]
-    x = items.text
+    x = str(items)
     lst = x.split('"')
 
     urls = []
     name = ''
     data = {}
-    games_name = main.games_name_get()
+    games_name = games_name_get()
     # print(games_name)
     for i in range(len(lst)):
         if lst[i] == 'title':
