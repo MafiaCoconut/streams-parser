@@ -9,13 +9,7 @@
 # print(now.isoformat().replace('T', ' '))
 # # information.database_time['youtube'] = [now.hour, now.minute, now.second, now]
 
-import requests
-import json
-import datetime
 from bs4 import BeautifulSoup
-import information
-
-
 
 # Работа со сохранённой страницей
 with open('data/project.html', encoding='utf-8') as file:

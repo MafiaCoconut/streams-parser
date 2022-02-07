@@ -1,20 +1,14 @@
-import requests
-from requests.auth import HTTPBasicAuth
-import json
-import sqlite3
-
 from bs4 import BeautifulSoup
-import information
-import main
+
 
 def get_data(url):
     driver = webdriver.Edge('msedgedriver.exe')
     driver.get(url)
-    with open('data/project.html', 'w', encoding='utf-8') as file:
+    with open('../data/project.html', 'w', encoding='utf-8') as file:
         file.write(driver.page_source)
 
 def parse_games():
-    with open('data/project.html', 'r', encoding='utf-8') as f:
+    with open('../data/project.html', 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'lxml')
         items = soup.find_all('img')
         games = []

@@ -13,27 +13,27 @@ def data_get():
 
 
 def games_name_get():
-    with open('data/games_name', 'r', encoding='utf-8') as file:
+    with open('../data/games_name', 'r', encoding='utf-8') as file:
         games_name = list(file.read().split(';'))
     return games_name
 
 
 def games_name_set(name):
-    with open('data/games_name', 'a', encoding='utf-8') as file:
+    with open('../data/games_name', 'a', encoding='utf-8') as file:
         word = name + ';'
         file.write(word)
 
 
 def get_data():
     page = requests.get(information.url, headers=information.headers)
-    with open('data/project.html', 'w', encoding='utf-8') as file:
+    with open('../data/project.html', 'w', encoding='utf-8') as file:
         file.write(page.text)
 
 
 def update_data():
     # Работа со сохранённой страницей
     get_data()
-    with open('data/project.html', encoding='utf-8') as file:
+    with open('../data/project.html', encoding='utf-8') as file:
         soup = BeautifulSoup(file.read(), 'lxml')
 
     scripts = soup.find('body').find_all('script')

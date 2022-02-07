@@ -1,13 +1,4 @@
-import requests
-from requests.auth import HTTPBasicAuth
-import json
-import sqlite3
-
-import os
-import re
-import time
-from bs4 import BeautifulSoup
-import youtube
+from platforms import youtube
 import information
 
 # from selenium import webdriver
