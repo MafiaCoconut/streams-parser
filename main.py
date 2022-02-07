@@ -1,5 +1,7 @@
 from platforms import youtube
-from platforms import youtube
+from help_files import information
+import text_and_commands
+
 import requests
 from requests.auth import HTTPBasicAuth
 import json
@@ -9,8 +11,7 @@ import os
 import re
 import time
 from bs4 import BeautifulSoup
-# import information
-import text_and_commands
+
 
 # from selenium import webdriver
 
