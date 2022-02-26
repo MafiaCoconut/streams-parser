@@ -3,7 +3,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QApplication
 # from menu.parser_page import ParserWindow
 # from menu import parser_page
-
+import platforms.youtube as youtube
+import help_files.information as information
 
 class Application(QMainWindow):
     def __init__(self):
@@ -50,7 +51,6 @@ class Application(QMainWindow):
         self.verticalLayout.addWidget(self.b_exit)
         self.tabWidget.addTab(self.main_page, "")
         self.main_page.show()
-        print('!!')
 
         # Страница с базой данных
         self.database_page = QtWidgets.QWidget()
@@ -64,9 +64,9 @@ class Application(QMainWindow):
         self.b_exit_4 = QtWidgets.QPushButton(self.database_page)
         self.b_exit_4.setGeometry(QtCore.QRect(760, 20, 91, 61))
         self.b_exit_4.setObjectName("b_exit_4")
-        self.b_uodate_database = QtWidgets.QPushButton(self.database_page)
-        self.b_uodate_database.setGeometry(QtCore.QRect(230, 210, 361, 61))
-        self.b_uodate_database.setObjectName("b_uodate_database")
+        self.b_update_database = QtWidgets.QPushButton(self.database_page)
+        self.b_update_database.setGeometry(QtCore.QRect(230, 210, 361, 61))
+        self.b_update_database.setObjectName("b_uodate_database")
         self.l_per_of_comletion = QtWidgets.QLabel(self.database_page)
         self.l_per_of_comletion.setGeometry(QtCore.QRect(400, 280, 21, 31))
         self.l_per_of_comletion.setObjectName("l_per_of_comletion")
@@ -214,7 +214,8 @@ class Application(QMainWindow):
         # self.parser_page.show()
 
     def connect_buttoms(self):
-        self.b_exit.clicked.connect(self.checkout_to_menu)
+        # Кнопки отвечающие за переход между окнами
+        self.b_exit.clicked.connect(self.exit)
         self.b_exit_3.clicked.connect(self.checkout_to_menu)
         self.b_exit_4.clicked.connect(self.checkout_to_menu)
         self.b_exit_8.clicked.connect(self.checkout_to_menu)
@@ -223,6 +224,14 @@ class Application(QMainWindow):
         self.b_streams.clicked.connect(self.checkout_to_parser)
         self.b_games_name.clicked.connect(self.checkout_to_games_name)
         self.b_recmendation.clicked.connect(self.checkout_to_recomendations)
+        self.b_to_parser.clicked.connect(self.checkout_to_parser)
+        self.b_games_names.clicked.connect(self.checkout_to_games_name)
+
+        # Меню с базой данных
+        self.b_update_database.clicked.connect(self.update_database)
+
+    def update_database(self):
+        self.l_per_of_comletion.setText('Ready')
 
     def retranslateUi(self, Application):
         _translate = QtCore.QCoreApplication.translate
@@ -237,7 +246,7 @@ class Application(QMainWindow):
         self.label_6.setText(_translate("Application", "Последнее обновление базы данных было:"))
         self.l_time.setText(_translate("Application", "время"))
         self.b_exit_4.setText(_translate("Application", "Назад"))
-        self.b_uodate_database.setText(_translate("Application", "Обновить базу данных"))
+        self.b_update_database.setText(_translate("Application", "Обновить базу данных"))
         self.l_per_of_comletion.setText(_translate("Application", "          0"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.database_page), _translate("Application", "Database"))
         self.b_games_names.setText(_translate("Application", "Просмотр всех названий игр"))
@@ -279,11 +288,20 @@ class Application(QMainWindow):
         self.b_exit_9.setText(_translate("Application", "Назад"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.recomendation_page), _translate("Application", "Recomendation"))
 
+    def exit(self):
+        # app = QApplication(sys.argv)
+        # sys.exit(app.exec_())
+        sys.exit()
+
     def checkout_to_menu(self):
         self.tabWidget.setCurrentIndex(0)
 
     def checkout_to_database(self):
         self.tabWidget.setCurrentIndex(1)
+        # self.l_time.setText('Ready')
+        last_update = information.database_time['youtube'][:-4]
+
+        self.l_time.setText(last_update)
 
     def checkout_to_parser(self):
         self.tabWidget.setCurrentIndex(2)

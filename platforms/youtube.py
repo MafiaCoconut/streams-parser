@@ -2,8 +2,8 @@ import requests
 import json
 import datetime
 from bs4 import BeautifulSoup
-import information
-import main
+import help_files.information as information
+import main1
 
 
 def data_get():
@@ -129,4 +129,4 @@ def streams(name):
         print(f'   Автор: {data_youtube[name][i]["channel name"]}')
         print(f'   Ссылка на  трансляцию: {data_youtube[name][i]["url"]}')
         print()
-    main.working_with_streams()
+    main1.working_with_streams()
