@@ -25,6 +25,28 @@ def games_name_set(name):
         file.write(word)
 
 
+def games_name_get_in_str():
+    data = games_name_get()[1:]
+    data.sort()
+    data = data[1:]
+    data2 = ''
+    data1 = ''
+    x = 0
+    l = 0
+    for i in data:
+        if r"\u" in i:
+            continue
+        x += 1
+        if len(data1) + len(i) > 130:
+            data2 += data1 + '\n'
+            data1 = ''
+
+        data1 += i + ' ' * 7
+
+    if data1 not in data2:
+        data2 += data1
+    return data2
+
 def check_name_is_in_games_name(name):
     games_name = games_name_get()
     # print(games_name)

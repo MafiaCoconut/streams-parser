@@ -1,64 +1,5 @@
 {
-    "League of Legends": [
-        {
-            "channel name": "LEC ",
-            "video title": "2022 Spring LEC - Week 7 Day 2 ",
-            "url": "https://www.youtube.com/watch?v=02bM3AKQYHw"
-        },
-        {
-            "channel name": "Сomeback play ",
-            "video title": "Походу насус мид ап рабочая тема. ",
-            "url": "https://www.youtube.com/watch?v=wtlORg9vdMY"
-        },
-        {
-            "channel name": "Alice Shastoon ",
-            "video title": "Держимся! → League of Legends Stream / Лига Легенд стрим ",
-            "url": "https://www.youtube.com/watch?v=hS3w9fp4X10"
-        },
-        {
-            "channel name": "LoL Esports ",
-            "video title": "2022 Spring LEC - Week 7 Day 2 ",
-            "url": "https://www.youtube.com/watch?v=9gy7rOpduKE"
-        },
-        {
-            "channel name": "Devil Teemo ",
-            "video title": "Давайте-ка дружно соберемся вместе! Let's GO! | League of Legends | Событие Лунного Нового Года 2022 ",
-            "url": "https://www.youtube.com/watch?v=dZg-NBdi_mk"
-        }
-    ],
-    "Elden Ring": [
-        {
-            "channel name": "PoleznyiBes ",
-            "video title": "Elden Ring - Пир во время [Стрим #2] ",
-            "url": "https://www.youtube.com/watch?v=aVuVgw-IODc"
-        },
-        {
-            "channel name": "Sledovatel GameShow ",
-            "video title": "Невозможно не психануть! - Новинка 2022 - ELDEN RING ",
-            "url": "https://www.youtube.com/watch?v=BlbW906EFtc"
-        },
-        {
-            "channel name": "Dark Valkyrie ",
-            "video title": "ELDEN RING Полное Прохождение на Русском и Обзор | ЭЛДЕН РИНГ Прохождение | СТРИМ #2 ",
-            "url": "https://www.youtube.com/watch?v=cho52CxeKtY"
-        },
-        {
-            "channel name": "Lega Play ",
-            "video title": "БОСС ПРЫГАЮЩИЙ ВОЛК ► ПОЛНОЕ ПРОХОЖДЕНИЕ ELDEN RING ► ЧАСТЬ 5 ► ЭЛДЕН РИНГ ГЕЙМПЛЕЙ и ОБЗОР ",
-            "url": "https://www.youtube.com/watch?v=dz27ABnUE6Y"
-        },
-        {
-            "channel name": "Первый Хоррор Канал ",
-            "video title": "Elden Ring Прохождение — Часть 7: Воин окреп ",
-            "url": "https://www.youtube.com/watch?v=q9BpJ6M5oIA"
-        }
-    ],
     "Minecraft": [
-        {
-            "channel name": "BaDMaN ",
-            "video title": "Майнкрафт но у меня один блок, Скайблок! Minecraft один блок , Minecraft ONE BLOCK ",
-            "url": "https://www.youtube.com/watch?v=Pr_0vIA3I3c"
-        },
         {
             "channel name": "Vector Play ",
             "video title": "REALISTIC MINECRAFT - THE MOVIE ( 2022 ) ",
@@ -70,31 +11,53 @@
             "url": "https://www.youtube.com/watch?v=xNU1HzMIHgQ"
         },
         {
-            "channel name": "Minecraft Best Stories ",
-            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin Poppy Playtime Animations #2 fnaf security breach ",
-            "url": "https://www.youtube.com/watch?v=Ikneq1bRhPU"
+            "channel name": "Vector Play ",
+            "video title": "REALISTIC MINECRAFT - THE MOVIE ( 2022 ) ",
+            "url": "https://www.youtube.com/watch?v=68xHLevmhMI"
         },
         {
-            "channel name": "Minecraft Epic Heroes ",
-            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin Poppy Playtime Animations #3 fnaf security breach ",
-            "url": "https://www.youtube.com/watch?v=Ef0BNJOU6Hw"
+            "channel name": "Felizio ",
+            "video title": "Squid Game vs Huggy Wuggy vs Poppy Playtime vs Minion vs Kissy Missy vs Fnaf - Minecraft Gameplay ",
+            "url": "https://www.youtube.com/watch?v=K9oWZdZ6xbM"
+        },
+        {
+            "channel name": "Mine B ",
+            "video title": "Shrek, Poppy Playtime, Minion's Family and others play Squid Game - in Minecraft Gameplay 47 ",
+            "url": "https://www.youtube.com/watch?v=MEP3BP-9ECM"
+        }
+    ],
+    "Elden Ring": [
+        {
+            "channel name": "Первый Хоррор Канал ",
+            "video title": "Elden Ring Прохождение — Часть 7: Воин окреп ",
+            "url": "https://www.youtube.com/watch?v=q9BpJ6M5oIA"
+        },
+        {
+            "channel name": "Dark Valkyrie ",
+            "video title": "ELDEN RING Полное Прохождение на Русском и Обзор | ЭЛДЕН РИНГ Прохождение | СТРИМ #2 ",
+            "url": "https://www.youtube.com/watch?v=cho52CxeKtY"
+        },
+        {
+            "channel name": "Welder ",
+            "video title": "Elden Ring - Стрим Прохождения #2 ",
+            "url": "https://www.youtube.com/watch?v=NxN74vVyOQk"
+        },
+        {
+            "channel name": "Сергей Inq ",
+            "video title": "[Elden Ring] Дед в игре :) ",
+            "url": "https://www.youtube.com/watch?v=Vd3K6rBvBac"
+        },
+        {
+            "channel name": "Sharap ",
+            "video title": "Elden Ring  🔴 Дубль 2 ",
+            "url": "https://www.youtube.com/watch?v=MqdX_PLRN4E"
         }
     ],
     "Garena Free Fire": [
         {
-            "channel name": "UNKNWN MJ ",
-            "video title": "PUSH TO TOP 1 GRANDMASTER - CS RANKED 😎👽 #2BGAMER​​ #FREEFIRELIVE​​ #AJJUBHAILIVE​​ #AS_GAMINGLIVE​ ",
-            "url": "https://www.youtube.com/watch?v=Q7NJOrNEp8Q"
-        },
-        {
             "channel name": "Akash Acers ",
             "video title": "FREE FIRE LIVE GIVEAWAY || IN CUSTOM ROOM|| DIAMOND GIVEAWAY ",
             "url": "https://www.youtube.com/watch?v=1Gom6Wz-YYE"
-        },
-        {
-            "channel name": "Rph Gaming ",
-            "video title": "FREE FIRE LIVE CUSTOM ROOM || FF LIVE GIVEAWAY DIAMOND ",
-            "url": "https://www.youtube.com/watch?v=fh7h21Fxaos"
         },
         {
             "channel name": "Canal do Tcheka ",
@@ -105,6 +68,210 @@
             "channel name": "Gamer X ",
             "video title": "СТРИМ С НАСТЕЙ ВО ФРИ ФАЕР/ИЩЕМ ЛУЧШИХ ИГРОКОВ ВО FREE FIRE ",
             "url": "https://www.youtube.com/watch?v=i99bcqjwSOA"
+        },
+        {
+            "channel name": "RedFace ",
+            "video title": "САМЫЙ ЛУЧШИЙ НАСТРОЙЩИК В СНГ ! ",
+            "url": "https://www.youtube.com/watch?v=dvIA8fr1oDk"
+        },
+        {
+            "channel name": "TakenGo ",
+            "video title": "ТУҒАН КҮНГЕ БЕСПЛАТНО ПРОВЕРКА 911 | КАЗАХША ФРИ ФАЕР СТРИМ ",
+            "url": "https://www.youtube.com/watch?v=_siSemsyWGc"
+        }
+    ],
+    "Clash Royale": [
+        {
+            "channel name": "Michou ",
+            "video title": "SOIRÉE CLASH ROYALE ! (vous me dites ce qu'on fait) ",
+            "url": "https://www.youtube.com/watch?v=I7oTq8i9yoE"
+        },
+        {
+            "channel name": "Yosue ",
+            "video title": "JUGANDO CON CARTAS NIVEL PAPEL XD🥵😎 ",
+            "url": "https://www.youtube.com/watch?v=UoAPcsU5jlw"
+        },
+        {
+            "channel name": "AlierenFan CR ",
+            "video title": "Sizlerle Birlikte 7600 E Kasıyoruz ClashRoyale ",
+            "url": "https://www.youtube.com/watch?v=3ANUpwV6f9I"
+        },
+        {
+            "channel name": "ViniTmCR ",
+            "video title": "PUSH PARA OS 8000 TROFÉUS🔥🔥 #CLASHROYALE ",
+            "url": "https://www.youtube.com/watch?v=0981VMQnJMQ"
+        },
+        {
+            "channel name": "Igor O.o CR ",
+            "video title": "PUSH EM BUSCA DOS 8K + DANDO COACH NA CRL-  CLASH ROYALE AO VIVO ",
+            "url": "https://www.youtube.com/watch?v=VtrvZwtnNks"
+        }
+    ],
+    "Valorant": [
+        {
+            "channel name": "VALORANT Champions Tour ",
+            "video title": "Sentinels vs OpTic Gaming - VCT Stage 1 Challengers NA Main Event   - Week 3 Day 2 ",
+            "url": "https://www.youtube.com/watch?v=kRTNk8D8vjE"
+        },
+        {
+            "channel name": "ReishTV ",
+            "video title": "ВАЛОРАНТ СТРИМ | ВЕЧЕРНИЙ СТРИМ! РЕЙТИНГОВЫЕ МАТЧИ! ПОДПИСЫВАЙСЯ! ",
+            "url": "https://www.youtube.com/watch?v=J5WbJlO7XiM"
+        },
+        {
+            "channel name": "fa2 ",
+            "video title": "APAC it is | Kal mumbai 😎 ",
+            "url": "https://www.youtube.com/watch?v=p_jGTAdUGv8"
+        },
+        {
+            "channel name": "N1LEX ",
+            "video title": "СТРИМ VALORANT | РЕЙТИНГ | ДЕНЬ 47 ",
+            "url": "https://www.youtube.com/watch?v=QBoSU3rQfYw"
+        },
+        {
+            "channel name": "Maksim Rybinskiy ",
+            "video title": "Ночной стрим #Valorant/ Рейтинговые матчи/ Быстрые установки ",
+            "url": "https://www.youtube.com/watch?v=sFZ8YCsP1b8"
+        }
+    ],
+    "Amnesia: Rebirth": [
+        {
+            "channel name": "Vaush ",
+            "video title": "RUSSIA IS BREAKING ",
+            "url": "https://www.youtube.com/watch?v=q2HZQMYhm8I"
+        }
+    ],
+    "Counter-Strike: Global Offensive": [
+        {
+            "channel name": "Андрей Луганский БЛОГ ",
+            "video title": "ОПЕРАТИВНАЯ ИНФОРМАЦИЯ ОНЛАЙН вечер 26 февраля ",
+            "url": "https://www.youtube.com/watch?v=cdVngFWQP8Y"
+        },
+        {
+            "channel name": "DOLF ",
+            "video title": "ДОНБАСС ОСВОБОЖДЁН! СЛЕДИМ ЗА СИТУАЦИЕЙ СПЕЦОПЕРАЦИИ / УКРАИНА / РОССИЯ ",
+            "url": "https://www.youtube.com/watch?v=nq-h2pEXXuw"
+        },
+        {
+            "channel name": "Maxim Mixer ",
+            "video title": "Отборочные на новый турнир по КС ГО ",
+            "url": "https://www.youtube.com/watch?v=hbGxCTKwKVM"
+        },
+        {
+            "channel name": "OTRICAL ",
+            "video title": "🔥 ДО ГЛОБАЛА С СОФТОМ // МИДНАЙТ // ИГРАЮ ЛЕГИТНО // СТРИМ ",
+            "url": "https://www.youtube.com/watch?v=B1uYDCK8-6I"
+        },
+        {
+            "channel name": "Seyka Seyka ",
+            "video title": "ФИНАЛ ТУРНИРА MIX РАНГОВ! Чат и я на твиче, есть в описании! стрим кс го , cs go + faceit фейсит ",
+            "url": "https://www.youtube.com/watch?v=ZZnlK-db3XQ"
+        }
+    ],
+    "PUBG MOBILE": [
+        {
+            "channel name": "AnTOnY ",
+            "video title": "ФИНАЛ ТУРНИРА В PUBG MOBILE - ИГРАЕМ WINTER CIS PRO LEAGUE НА 10.000$! ДЕНЬ 4 | ПУБГ МОБАЙЛ PMCE ",
+            "url": "https://www.youtube.com/watch?v=YIfB4p9z-zc"
+        },
+        {
+            "channel name": "Attique Tech Lab ",
+            "video title": "ЧИТ ДЛЯ ПУБГ МОБАЙЛ 1.8 АНДРОИД, IOS / ЧИТ ПУБГ МОБАЙЛ ",
+            "url": "https://www.youtube.com/watch?v=OqeE6u85GKg"
+        },
+        {
+            "channel name": "SI WEST STREAM ",
+            "video title": "НОЧНОЙ СТРИМ ПУБГ МОБАЙЛ + ПРИЗОВЫЕ КАСТОМКИ | СТРИМ PUBG MOBILE! ",
+            "url": "https://www.youtube.com/watch?v=kkNm9FWRlMo"
+        },
+        {
+            "channel name": "KASIK  ",
+            "video title": "НОЧНОЙ МАРАФОН . ПУШИМ ЗАВИКА . СТРИМ С ТЕЛЕФОНА PUBG MOBILE / DMR ",
+            "url": "https://www.youtube.com/watch?v=6h93v0rpbB4"
+        },
+        {
+            "channel name": "Podolsk Stream ",
+            "video title": "ЗАЖИМАЮ В ТОЧКУ ❤️ БЕРУ ЗАВОЕВАТЕЛЯ В PUBG MOBILE | ПУШИМ ПАБЛИК - СТРИМ ПО ПУБГ МОБАЙЛ НА ТЕЛЕФОНЕ ",
+            "url": "https://www.youtube.com/watch?v=39lwu29IufE"
+        }
+    ],
+    "Fortnite": [
+        {
+            "channel name": "Mazo ",
+            "video title": "🔴EARTHQUAKE LIVE EVENT HAPPENING RIGHT NOW! Fortnite Chapter 3 Live Event ",
+            "url": "https://www.youtube.com/watch?v=3l3hLLbhMw8"
+        },
+        {
+            "channel name": "Dope ",
+            "video title": "🔴 REAL FORTNITE FASHION SHOW LIVE! SKIN CONTEST! CUSTOM MATCHMAKING | FORTNITE LIVE STREAM! ",
+            "url": "https://www.youtube.com/watch?v=LFQ0UfBKnTI"
+        },
+        {
+            "channel name": "Lonnie Gaming ",
+            "video title": "🔴CUSTOM MATCHMAKING🔴EU LIVE SOLO DUO SQUAD SCRIMS FORTNITE LIVE CUSTOM GAMES ",
+            "url": "https://www.youtube.com/watch?v=HThfnT0eAVk"
+        },
+        {
+            "channel name": "JordyStorm ",
+            "video title": "FINALE TALENTENSHOW | 24 UUR STREAM!🎉 ",
+            "url": "https://www.youtube.com/watch?v=wb6tL9BhtV0"
+        },
+        {
+            "channel name": "SOMSONSHOW ",
+            "video title": "В ПЛЕНУ ФОРТНАЙТ  ! БИТВА СЕТОВ ФОРТНАЙТ! СТРИМ ПО ФОРТНАЙТ ",
+            "url": "https://www.youtube.com/watch?v=CFSz3hLMeCI"
+        },
+        {
+            "channel name": "Pun Team ",
+            "video title": "🔴(REAL) *NA-EAST* FORTNITE CUSTOM MATCHMAKING SCRIMS! 2 WINS = 500 VBUCKS FREE! (JOIN NOW) ",
+            "url": "https://www.youtube.com/watch?v=VnLHj8WnOFw"
+        },
+        {
+            "channel name": "SuperKiller - Code SuperKiller121 in Item Shop ",
+            "video title": "FORTNITE FASHION SHOW LIVE ! SKIN CONTEST | FORTNITE CUSTOM MATCHMAKING SOLO/DUO/SQUADS SCRIMS LIVE ",
+            "url": "https://www.youtube.com/watch?v=g0D3dTngP0I"
+        },
+        {
+            "channel name": "Tdog Ex ",
+            "video title": "🔴 (EU) FORTNITE FASHION SHOW LIVE ! SKIN HIDE AND SEEK ! CUSTOM MATCHMAKING FORTNITE LIVE! ",
+            "url": "https://www.youtube.com/watch?v=wnq0wiJ4RzY"
+        },
+        {
+            "channel name": "عثوث / AYH_Y 𓆩*.^𓆪 ",
+            "video title": "بث مباشر فورت نايت🥶|سيرفر خاص | تحدي[71,000]🤯على[170$]😱🥇(( لايك + اشتراك + تم  ))🥇😱الايتم شوب😨 ",
+            "url": "https://www.youtube.com/watch?v=uhVE5r0lrHs"
+        },
+        {
+            "channel name": "ولف قيمز wolf games ",
+            "video title": "بث مباشر فورت نايت || سيرفر خاص توزيع جوائز 🤑💵 50$ || 🔴 عرق عرض ازياء شرطي حرامي || 🔴 fortnite ",
+            "url": "https://www.youtube.com/watch?v=dfLPOo4hMf8"
+        }
+    ],
+    "Grand Theft Auto V": [
+        {
+            "channel name": "BarminVan ",
+            "video title": "🔴STREAM GTA 5 RP. [ДЕНЬ 178] 24 ЧАСА СТРИМ ",
+            "url": "https://www.youtube.com/watch?v=wPuMvtUVnv4"
+        },
+        {
+            "channel name": "Play Shelly ",
+            "video title": "Z-Game | Воюем только в играх! Мирного неба всем желаю! ",
+            "url": "https://www.youtube.com/watch?v=LdFG5mp2pog"
+        },
+        {
+            "channel name": "Князь ",
+            "video title": "ДЕГУСВТИРУЕМ ОБНОВЛЕНИЕ! 🔥 GTA 5 GRAND RP 🔥 CHICAGO LUXE 🔥 ",
+            "url": "https://www.youtube.com/watch?v=Htomu4pH6K0"
+        },
+        {
+            "channel name": "Мамура в деле ",
+            "video title": "#Grand Theft Auto V МАМУРА ГОНЯЕТ НА СВОЕЙ ЛАСТОЧКЕ  СТРИМ ОНЛАЙН ЗАХОДИ НА СТРИМ ",
+            "url": "https://www.youtube.com/watch?v=bY0qoCgBkIE"
+        },
+        {
+            "channel name": "SpaceFrootKiDsTV Arabia ",
+            "video title": "#3 GTA 5 TV: RACES \\u0026 RAGDOLL - Spiderman \\u0026 Superheroes Extreme Super Bikes Ramp Race Challenges Mods ",
+            "url": "https://www.youtube.com/watch?v=8mEFkgzDuZs"
         }
     ],
     "Roblox": [
@@ -129,144 +296,63 @@
             "url": "https://www.youtube.com/watch?v=-Zek2DRL3LY"
         },
         {
-            "channel name": "KreekCraft ",
-            "video title": "🔴 THE STREAM ENDS IF ROBLOX GOES DOWN... ",
-            "url": "https://www.youtube.com/watch?v=w3IU513zyeM"
+            "channel name": "Sunbokuu ",
+            "video title": "[Rengoku Remaster] Update Shindo Life 🐸 ",
+            "url": "https://www.youtube.com/watch?v=XxoSPhn8soo"
         }
     ],
-    "Clash Royale": [
+    "League of Legends": [
         {
-            "channel name": "Narek CR ",
-            "video title": "✅ Ламповый Стрим / Clash Royale ",
-            "url": "https://www.youtube.com/watch?v=bV8zzEPMWoI"
+            "channel name": "Сomeback play ",
+            "video title": "Походу насус мид ап рабочая тема. ",
+            "url": "https://www.youtube.com/watch?v=wtlORg9vdMY"
         },
         {
-            "channel name": "Mr_lively_Clash Royale ",
-            "video title": "ВОЮЕМ И ТАЩИМ В БОЯХ ИГРЫ Clash Royale!*под музыку* ",
-            "url": "https://www.youtube.com/watch?v=XF0kDquuOkw"
+            "channel name": "Alice Shastoon ",
+            "video title": "Держимся! → League of Legends Stream / Лига Легенд стрим ",
+            "url": "https://www.youtube.com/watch?v=hS3w9fp4X10"
         },
         {
-            "channel name": "Michou ",
-            "video title": "SOIRÉE CLASH ROYALE ! (vous me dites ce qu'on fait) ",
-            "url": "https://www.youtube.com/watch?v=I7oTq8i9yoE"
+            "channel name": "ROSKO ",
+            "video title": "🔴 ФУРРИ СТРИМ ОУ НОУ ОПЯТЬ ПОЗДНО🐺 ",
+            "url": "https://www.youtube.com/watch?v=J-v17FH38UQ"
         },
         {
-            "channel name": "SamHero ",
-            "video title": "PUSH 8000 TROFÉUS + CLASSIFICAÇÃO PARA A CRL #clashroyale ",
-            "url": "https://www.youtube.com/watch?v=D0tnZL-PaHs"
+            "channel name": "LoL Esports ",
+            "video title": "DIG vs. TL  - Week 4 Day 2 | LCS Spring Split (2022) ",
+            "url": "https://www.youtube.com/watch?v=-ytcMcWUuwY"
         },
         {
-            "channel name": "Vinizada CR ",
-            "video title": "PUSH RUMO A 8000 TROFÉUS!  -  CLASH ROYALE ",
-            "url": "https://www.youtube.com/watch?v=vl__m0fpaZo"
+            "channel name": "Devil Teemo ",
+            "video title": "Давайте-ка дружно соберемся вместе! Let's GO! | League of Legends | Событие Лунного Нового Года 2022 ",
+            "url": "https://www.youtube.com/watch?v=dZg-NBdi_mk"
         }
     ],
-    "PUBG MOBILE": [
+    "Hearthstone": [
         {
-            "channel name": "AnTOnY ",
-            "video title": "ФИНАЛ ТУРНИРА В PUBG MOBILE - ИГРАЕМ WINTER CIS PRO LEAGUE НА 10.000$! ДЕНЬ 4 | ПУБГ МОБАЙЛ PMCE ",
-            "url": "https://www.youtube.com/watch?v=YIfB4p9z-zc"
+            "channel name": "Hearthstone Esports ",
+            "video title": "2022 Hearthstone Grandmasters Americas | Season 1 | Week 1 | Day 2 ",
+            "url": "https://www.youtube.com/watch?v=M_iQeDkhMco"
         },
         {
-            "channel name": "Attique Tech Lab ",
-            "video title": "ЧИТ ДЛЯ ПУБГ МОБАЙЛ 1.8 АНДРОИД, IOS / ЧИТ ПУБГ МОБАЙЛ ",
-            "url": "https://www.youtube.com/watch?v=OqeE6u85GKg"
+            "channel name": "Hearthstone ",
+            "video title": "2022 Hearthstone Grandmasters | Season 1 | Week 1 | Day 2 ",
+            "url": "https://www.youtube.com/watch?v=TH57kl83CFs"
         },
         {
-            "channel name": "SI WEST STREAM ",
-            "video title": "НОЧНОЙ СТРИМ ПУБГ МОБАЙЛ + ПРИЗОВЫЕ КАСТОМКИ | СТРИМ PUBG MOBILE! ",
-            "url": "https://www.youtube.com/watch?v=kkNm9FWRlMo"
+            "channel name": "EugeN4EG ",
+            "video title": "что-то как то да... ",
+            "url": "https://www.youtube.com/watch?v=_wm2xoeheik"
         },
         {
-            "channel name": "DARK PERSIAN ",
-            "video title": "ПОДДЕРЖИТЕ ЛАЙКОМ БРАТЦЫ/ БУСТ АККАУНТОВ/ АСС ДОМИНАТОР/КАТАЕМ ПРАКИ/ТУРНИРЫ/ОБЩЕНИЕ/ИГ ПОДПИСЧИКАМИ ",
-            "url": "https://www.youtube.com/watch?v=bIoMMUai-OE"
+            "channel name": "羅傑 Roger ",
+            "video title": "【羅傑直播】2/26 阿傑和泰山的戰場日常 星期六   我也當傳奇 比小丑更想當    ｜Roger9527｜爐石戰記 ",
+            "url": "https://www.youtube.com/watch?v=aIyBdJkCud4"
         },
         {
-            "channel name": "Monster Plays Live ",
-            "video title": "PUBG MOBILE  | UNLIMITED ADVANCED UC CUSTOM ROOMS | MONSTER PLAYS LIVE  #CUSTOMROOM ",
-            "url": "https://www.youtube.com/watch?v=0UvdnnjX--0"
-        }
-    ],
-    "Grand Theft Auto V": [
-        {
-            "channel name": "BarminVan ",
-            "video title": "🔴STREAM GTA 5 RP. [ДЕНЬ 178] 24 ЧАСА СТРИМ ",
-            "url": "https://www.youtube.com/watch?v=wPuMvtUVnv4"
-        },
-        {
-            "channel name": "SIDY ",
-            "video title": "НЕТ ОНЛАЙНА НА СТРИМЕ, ПЛАЧЕМ :( СТРИМ в РАДМИР РП КРМП ",
-            "url": "https://www.youtube.com/watch?v=GyPc5aSRyCg"
-        },
-        {
-            "channel name": "Play Shelly ",
-            "video title": "Z-Game | Воюем только в играх! Мирного неба всем желаю! ",
-            "url": "https://www.youtube.com/watch?v=LdFG5mp2pog"
-        },
-        {
-            "channel name": "ALMAZOV ",
-            "video title": "ЗАМЕС НА АВТОСАЛОНЕ ЗА 200 МИЛЛИОНОВ + СТРИМ С ВЕБКОЙ GTA 5 RP MAJESTIC / ГТА 5 РП МАДЖЕСТИК ",
-            "url": "https://www.youtube.com/watch?v=UXzccG_gFT4"
-        },
-        {
-            "channel name": "КИРИЛЬМАН СТРИМ ",
-            "video title": "💙СТРИМ НА MAJESTIC RP SERVER 3 🔴 GTA 5 ONLINE💎МАДЖЕСТИК РП  СТРИМ ГТА 5 ОНЛАЙН ",
-            "url": "https://www.youtube.com/watch?v=gqpwCl3exL4"
-        }
-    ],
-    "Fortnite": [
-        {
-            "channel name": "Mazo ",
-            "video title": "🔴EARTHQUAKE LIVE EVENT HAPPENING RIGHT NOW! Fortnite Chapter 3 Live Event ",
-            "url": "https://www.youtube.com/watch?v=3l3hLLbhMw8"
-        },
-        {
-            "channel name": "Dope ",
-            "video title": "🔴 REAL FORTNITE FASHION SHOW LIVE! SKIN CONTEST! CUSTOM MATCHMAKING | FORTNITE LIVE STREAM! ",
-            "url": "https://www.youtube.com/watch?v=LFQ0UfBKnTI"
-        },
-        {
-            "channel name": "Lonnie Gaming ",
-            "video title": "🔴CUSTOM MATCHMAKING🔴EU LIVE SOLO DUO SQUAD SCRIMS FORTNITE LIVE CUSTOM GAMES ",
-            "url": "https://www.youtube.com/watch?v=HThfnT0eAVk"
-        },
-        {
-            "channel name": "JordyStorm ",
-            "video title": "TALENTENSHOW | 24 UUR STREAM!🎉 ",
-            "url": "https://www.youtube.com/watch?v=wb6tL9BhtV0"
-        },
-        {
-            "channel name": "Fortnite ",
-            "video title": "Fortnite Champion Series C3S1 |  Semi-Finals | Day 2 ",
-            "url": "https://www.youtube.com/watch?v=w5Tr0WYlWjM"
-        }
-    ],
-    "Counter-Strike: Global Offensive": [
-        {
-            "channel name": "Notfull ",
-            "video title": "🔥[Rus] IEM KATOWICE 2022 ГЕРОИК vs ФЕЙЗ ПРЯМАЯ ТРАНСЛЯЦИЯ // MATCH FAZE VS HEROIC ",
-            "url": "https://www.youtube.com/watch?v=yEJdYyaS2oE"
-        },
-        {
-            "channel name": "DOLF ",
-            "video title": "ДОНБАСС ОСВОБОЖДЁН! СЛЕДИМ ЗА СИТУАЦИЕЙ СПЕЦОПЕРАЦИИ / УКРАИНА / РОССИЯ ",
-            "url": "https://www.youtube.com/watch?v=nq-h2pEXXuw"
-        },
-        {
-            "channel name": "OTRICAL ",
-            "video title": "🔥 ДО ГЛОБАЛА С СОФТОМ // МИДНАЙТ // ИГРАЮ ЛЕГИТНО // СТРИМ ",
-            "url": "https://www.youtube.com/watch?v=B1uYDCK8-6I"
-        },
-        {
-            "channel name": "ROZEN ",
-            "video title": "АНИМЕ ДЕВОЧКА СТРИМИТ ",
-            "url": "https://www.youtube.com/watch?v=TWEoOQ4OLeg"
-        },
-        {
-            "channel name": "srzpln ",
-            "video title": "ИГРАЮ В ММ НА КАЛАШАХ ",
-            "url": "https://www.youtube.com/watch?v=71VDdHOBJIA"
+            "channel name": "Hearthstone Brasil ",
+            "video title": "2022 Hearthstone Grandmasters | Temporada 1 | Semana 1 | Dia 2 ",
+            "url": "https://www.youtube.com/watch?v=ayLig7Y1DYU"
         }
     ],
     "Apex Legends": [
@@ -291,36 +377,9 @@
             "url": "https://www.youtube.com/watch?v=01C0SxIgjiw"
         },
         {
-            "channel name": "EPIDOZ ",
-            "video title": "🔴Пытаюсь чилить, и катать катки |Заказ Песен в Донате| Apex Legends 12 🔥 ",
-            "url": "https://www.youtube.com/watch?v=BzAsiwXla9s"
-        }
-    ],
-    "Hearthstone": [
-        {
-            "channel name": "Hearthstone Esports ",
-            "video title": "2022 Hearthstone Grandmasters Americas | Season 1 | Week 1 | Day 2 ",
-            "url": "https://www.youtube.com/watch?v=M_iQeDkhMco"
-        },
-        {
-            "channel name": "Hearthstone ",
-            "video title": "2022 Hearthstone Grandmasters | Season 1 | Week 1 | Day 2 ",
-            "url": "https://www.youtube.com/watch?v=TH57kl83CFs"
-        },
-        {
-            "channel name": "EugeN4EG ",
-            "video title": "что-то как то да... ",
-            "url": "https://www.youtube.com/watch?v=_wm2xoeheik"
-        },
-        {
-            "channel name": "TevolCors Channel ",
-            "video title": "Бросаемся картонками в Hearthstone ",
-            "url": "https://www.youtube.com/watch?v=xoHkc05507k"
-        },
-        {
-            "channel name": "Hearthstone Brasil ",
-            "video title": "2022 Hearthstone Grandmasters | Temporada 1 | Semana 1 | Dia 2 ",
-            "url": "https://www.youtube.com/watch?v=ayLig7Y1DYU"
+            "channel name": "Nyama ",
+            "video title": "Стрим!Девушка играет в апекс!12 сезон!Пушка,бомба,убивашка,щупаем всё что щупается (Apex Legends)^^ ",
+            "url": "https://www.youtube.com/watch?v=baDPhs_Hyls"
         }
     ],
     "Mobile Legends: Bang Bang": [
@@ -345,75 +404,21 @@
             "url": "https://www.youtube.com/watch?v=4162VwoWSsA"
         },
         {
-            "channel name": "Heroin MLBB ",
-            "video title": "НУ ШО КАСТОМКИ? КТО НЕ УСПЕЛ ТОТ КРИП | Мобайл Легендс/Mobile Legends ",
-            "url": "https://www.youtube.com/watch?v=twjRL4I-wkM"
-        }
-    ],
-    "Valorant": [
-        {
-            "channel name": "ReishTV ",
-            "video title": "ВАЛОРАНТ СТРИМ | ВЕЧЕРНИЙ СТРИМ! РЕЙТИНГОВЫЕ МАТЧИ! ПОДПИСЫВАЙСЯ! ",
-            "url": "https://www.youtube.com/watch?v=J5WbJlO7XiM"
-        },
-        {
-            "channel name": "N1LEX ",
-            "video title": "СТРИМ VALORANT | РЕЙТИНГ | ДЕНЬ 47 ",
-            "url": "https://www.youtube.com/watch?v=QBoSU3rQfYw"
-        },
-        {
-            "channel name": "TheДвуshка ",
-            "video title": "Я снова здесь, пора мой друг... VALORANT ",
-            "url": "https://www.youtube.com/watch?v=-lw0k62llHE"
-        },
-        {
-            "channel name": "Velikiy1d-Valorant ",
-            "video title": "НЕТ ВОЙНЕ !А ЗАХОДИ И СМОТРИ СТИМ ПО VALORANT ",
-            "url": "https://www.youtube.com/watch?v=E0oLhlbM6sI"
-        },
-        {
-            "channel name": "mszakharchik ",
-            "video title": "VALORANT-ИГРАЕМ НА РЕЙТИНГ,СИЛЬНЫЕ СИЛЬВЕРЫ!!! ",
-            "url": "https://www.youtube.com/watch?v=2YbR4a52kSw"
-        }
-    ],
-    "Battlegrounds Mobile India": [
-        {
-            "channel name": "Singhwing ",
-            "video title": "Bgmi Live Custom Room| Uc Giveaway | Free Redeem Code 🔥| bgmi live custom room ",
-            "url": "https://www.youtube.com/watch?v=eB-MEO1_rKM"
-        },
-        {
-            "channel name": "Dance To Dance ",
-            "video title": "Bgmi Live Custom Rooms | Everyday Bgmi Custom Rooms Live | Battleground Mobile India | Game Guru ",
-            "url": "https://www.youtube.com/watch?v=I5dbhj_1H6Y"
-        },
-        {
-            "channel name": "KAPIL FF ",
-            "video title": "🔴BGMI LIVE UC GIVEAWAY || #BGMI #UC GIVEAWAY || BGMI CUSTOM ROOM GIVEAWAY || GIVE SUPER CHAT TAKE UC ",
-            "url": "https://www.youtube.com/watch?v=H9OC_2zr_jk"
-        },
-        {
-            "channel name": "DracoGames ",
-            "video title": "AWM LUCKY CRATE  SPIN  | BGMI  DRACO GAMES LIVE ",
-            "url": "https://www.youtube.com/watch?v=-esigkFPPoI"
-        },
-        {
-            "channel name": "Toxic Piku ",
-            "video title": "Chill Game Play😜😜  |BGMI LIVE STREAM | #toxicpiku#BGMILIVE#BGMI ",
-            "url": "https://www.youtube.com/watch?v=nRog142sbAE"
+            "channel name": "Gosha WWR ",
+            "video title": "🔺Mobile Legends: пытаюсь апать птс, но они делают со мной всякое...🔞 ",
+            "url": "https://www.youtube.com/watch?v=PMHqOJAmzio"
         }
     ],
     "BeamNG.drive": [
         {
+            "channel name": "BeamNG Drive PRO ",
+            "video title": "Beamng Drive Crashes | Cars vs Giant Pit | Cars vs Massive Speed Bumps ",
+            "url": "https://www.youtube.com/watch?v=7-ShaDxjykc"
+        },
+        {
             "channel name": "TITAN ",
             "video title": "Beamng Drive Crashes | Cars vs Giant Pit | Cars vs Massive Speed Bumps | Cars vs Massive Potholes ",
             "url": "https://www.youtube.com/watch?v=MuAaZAJqc5g"
-        },
-        {
-            "channel name": "BeamNG Hero TV ",
-            "video title": "Flatbed Trailer with Truck Transporting Tractor Car Rescue - Cars vs Deep Water vs - BeamNG ",
-            "url": "https://www.youtube.com/watch?v=ziEQYd9RHI0"
         },
         {
             "channel name": "CrasherNG ",
@@ -421,14 +426,14 @@
             "url": "https://www.youtube.com/watch?v=bh2xOA644Ik"
         },
         {
+            "channel name": "BeamNG Hero TV ",
+            "video title": "Flatbed Trailer with Truck Transporting Tractor Car Rescue - Cars vs Deep Water vs - BeamNG ",
+            "url": "https://www.youtube.com/watch?v=ziEQYd9RHI0"
+        },
+        {
             "channel name": "BeamNG Imperia ",
             "video title": "Flatbed Trailer Transport Cars on Highway Speed Bump - Cars vs Deep Water - BeamNG ",
             "url": "https://www.youtube.com/watch?v=4U95vvSScik"
-        },
-        {
-            "channel name": "redline BeamNG ",
-            "video title": "Cars vs Massive Speed Bumps  -  Trailer Truck Car Rescue #2 - BeamNG Drive ",
-            "url": "https://www.youtube.com/watch?v=GxpiuM82_wo"
         }
     ],
     "Terraria": [
@@ -438,14 +443,14 @@
             "url": "https://www.youtube.com/watch?v=css1WRX7LDU"
         },
         {
-            "channel name": "Elira Pendora 【NIJISANJI EN】 ",
-            "video title": "【TERRARIA】 sky area exploration? 【NIJISANJI EN | Elira Pendora】 ",
-            "url": "https://www.youtube.com/watch?v=1Qiuwv20cYY"
-        },
-        {
             "channel name": "Shu Yamino【NIJISANJI EN】 ",
             "video title": "teeeeraria (Terraria)【NIJISANJI EN | Shu Yamino】 ",
             "url": "https://www.youtube.com/watch?v=e2Y3jfDlorM"
+        },
+        {
+            "channel name": "Elira Pendora 【NIJISANJI EN】 ",
+            "video title": "【TERRARIA】 sky area exploration? 【NIJISANJI EN | Elira Pendora】 ",
+            "url": "https://www.youtube.com/watch?v=1Qiuwv20cYY"
         },
         {
             "channel name": "ssasnutyy ",
@@ -453,9 +458,36 @@
             "url": "https://www.youtube.com/watch?v=ydweV9B3OL0"
         },
         {
-            "channel name": "Debchik ",
-            "video title": "Заходи поболтать! Стрим террария. Играем с модами)) RU, EN, LIVE, STREAM ",
-            "url": "https://www.youtube.com/watch?v=_KY7an07INE"
+            "channel name": "Jared_X2YT ",
+            "video title": "Terraria Open Multiplayer | Classic ",
+            "url": "https://www.youtube.com/watch?v=6ZPo1nBa7rM"
+        }
+    ],
+    "Horizon Forbidden West": [
+        {
+            "channel name": "Amway921 ",
+            "video title": "Сильная женщина сражается с роботами 💥 Horizon Forbidden West 💥 Часть 3 ",
+            "url": "https://www.youtube.com/watch?v=Tr960aJg64w"
+        },
+        {
+            "channel name": "G1deon ",
+            "video title": "Стрим: Horizon Forbidden West #11 - ЭТО ФИНАЛ! БИТВА С ГЛАВНЫМ ПЕЛЬМЕНЕМ! ПОЛУЧИТСЯ ЕГО БАХНУТЬ? ",
+            "url": "https://www.youtube.com/watch?v=yARLSc5elGw"
+        },
+        {
+            "channel name": "Kuzmitch ",
+            "video title": "Прохождение Horizon Forbidden West (Запретный Запад) PS5 - Стрим 6 ",
+            "url": "https://www.youtube.com/watch?v=2ZPS5NAxnvM"
+        },
+        {
+            "channel name": "ALina_ astrID ",
+            "video title": "HORIZON FORBIDDEN WEST/ ПОЛНОЕ ПРОХОЖДЕНИЕ/ ЗАПРЕТНЫЙ ЗАПАД/ ОБЗОР/ #3 ",
+            "url": "https://www.youtube.com/watch?v=Dt39nI2QfCA"
+        },
+        {
+            "channel name": "Nexo4yxa ",
+            "video title": "ПРОХОЖДЕНИЕ ИГРЫ Horizon Forbidden West PS5,ЗАПРЕТНЫЙ ЗАПАД,СЛОМАННЫЕ НЕБЕСА - ЭФИР #5 ",
+            "url": "https://www.youtube.com/watch?v=YhcC1Dl1Ci8"
         }
     ],
     "World of Tanks": [
@@ -475,176 +507,14 @@
             "url": "https://www.youtube.com/watch?v=NLMGKMmRL3o"
         },
         {
-            "channel name": "Flaber TV ",
-            "video title": "ФЛАБЕР - НАЕМНЫЙ ПОЛЕВОЙ | КЛАНЫ W-RES, 68_RU | ВОЕННЫЕ ИГРЫ ",
-            "url": "https://www.youtube.com/watch?v=6vGsQZ0loHk"
+            "channel name": "LychagO ",
+            "video title": "Расчехляю VK 72.01 первые бои👺 ",
+            "url": "https://www.youtube.com/watch?v=Z5nNwAVdoEM"
         },
         {
-            "channel name": "SverdlovskTV I World of Tanks ",
-            "video title": "★РОЗЫГРЫШ ПРЕМА 8ЛВЛ+2500ГОЛДЫ  НА TROVO ★ ",
-            "url": "https://www.youtube.com/watch?v=KakKP3u-hjk"
-        }
-    ],
-    "Dota 2": [
-        {
-            "channel name": "❤ SweetEgor ",
-            "video title": "💜 Dota 2 Рейтинговые игры на 3000. Фейк аккаунт. Общаемся с чатом ",
-            "url": "https://www.youtube.com/watch?v=KiJBp7dupXo"
-        },
-        {
-            "channel name": "VANOMAS ",
-            "video title": "=DOTA 2 ШТУРМ 900 ММР= ",
-            "url": "https://www.youtube.com/watch?v=9lZXHH8MXnI"
-        },
-        {
-            "channel name": "arteans ",
-            "video title": "НОВЫЙ ГЕРОЙ ПРАЙМАЛ БИСТ! ТЕСТИРУЕМ ПАТЧ 7.31 DOTA 2 ",
-            "url": "https://www.youtube.com/watch?v=PmNTx85_Bvk"
-        },
-        {
-            "channel name": "MILORD DOTA 2 ",
-            "video title": "🔥 ДОТА 2 СТРИМ 🔥 ",
-            "url": "https://www.youtube.com/watch?v=M04FTW1sWXc"
-        },
-        {
-            "channel name": "XEN_AZES ",
-            "video title": "Всем привет | Как и говорил игры с комментариями | Ехала 3-4 игры. После игры с подписчиками ",
-            "url": "https://www.youtube.com/watch?v=dCC-bl4jVag"
-        }
-    ],
-    "Five Nights at Freddy’s": [
-        {
-            "channel name": "deadyson ",
-            "video title": "кокбокс ",
-            "url": "https://www.youtube.com/watch?v=YeMno6_3Rco"
-        },
-        {
-            "channel name": "dorilune ",
-            "video title": "Пугаемся и делаем кирпичи + вебка  # 1 ➲  Фнаф 1 ",
-            "url": "https://www.youtube.com/watch?v=5810bDbrE98"
-        },
-        {
-            "channel name": "wellonce ",
-            "video title": "#1 ПРОХОДИМ 5 НОЧЕЙ С ФРЕДИ (1 ЧАСТЬ) ",
-            "url": "https://www.youtube.com/watch?v=QjqN1QwSllA"
-        },
-        {
-            "channel name": "As Gameplay ",
-            "video title": "Scary Teacher 3D vs Five Nights At Freddy's🔴LIVE - TROLL Mr Grumpy \\u0026 Miss T - Funny Moments #128 ",
-            "url": "https://www.youtube.com/watch?v=79Dbc9VgdjU"
-        },
-        {
-            "channel name": "Gift Card ",
-            "video title": "Fnaf Mod Stream ",
-            "url": "https://www.youtube.com/watch?v=BYGAo2K76LI"
-        }
-    ],
-    "Pokémon UNITE": [
-        {
-            "channel name": "Pokémon UNITE ",
-            "video title": "EU \\u0026 NA February Finals | Pokémon UNITE Championship Series ",
-            "url": "https://www.youtube.com/watch?v=X_YgyeYPOlA"
-        },
-        {
-            "channel name": "Pokémon UNITE ",
-            "video title": "LATAM Finais de Fevereiro | Pokémon UNITE Championship Series ",
-            "url": "https://www.youtube.com/watch?v=RRu40rl9jHE"
-        },
-        {
-            "channel name": "Krashy ",
-            "video title": "POKEMON UNITE CHAMPIONSHIP SERIES WATCH PARTY! (EU \\u0026 NA) !Giveaway ",
-            "url": "https://www.youtube.com/watch?v=RMULZPkYC_U"
-        },
-        {
-            "channel name": "Phil / Youmuus Live Streams / Vods ",
-            "video title": "[ NA FINALS ! ] WE GOT DISQUAIFIED .... Lets talk about it ",
-            "url": "https://www.youtube.com/watch?v=yK6hXRwzoLo"
-        },
-        {
-            "channel name": "Assassin Dave UNITE Live ",
-            "video title": "🔴Worlds Feb. Final Watch Party with Foreign Famous | Pokémon UNITE LIVE ",
-            "url": "https://www.youtube.com/watch?v=Ftozw1kj94M"
-        }
-    ],
-    "Rocket League": [
-        {
-            "channel name": "ТурисТ ",
-            "video title": "СТРИМ 24+ ЧАСА - Чем займёмся? ",
-            "url": "https://www.youtube.com/watch?v=zp_lLe-zTmY"
-        },
-        {
-            "channel name": "Rocket League Esports ",
-            "video title": "RLCS Copa de Rocket League | Playoff Bracket | Day 2 ",
-            "url": "https://www.youtube.com/watch?v=CjrUSJtTBsc"
-        },
-        {
-            "channel name": "D2rdovich Play ",
-            "video title": "Rocket League стрим #104 качаю пропуск нужен 110 лвл (хочу себе 600 подписчиков совсем чучуть) ",
-            "url": "https://www.youtube.com/watch?v=f2Afax-giVo"
-        },
-        {
-            "channel name": "elismart13 ",
-            "video title": "Private Matches and Tournaments With Viewers. ",
-            "url": "https://www.youtube.com/watch?v=QXpBE4dRDfg"
-        },
-        {
-            "channel name": "Alezyode ",
-            "video title": "LIVE ROCKET LEAGUE (abonnez-vous à mon twitch svp :( ) ",
-            "url": "https://www.youtube.com/watch?v=9fy5IJS7coY"
-        }
-    ],
-    "Friday Night Funkin’": [
-        {
-            "channel name": "Funny Gameplay ",
-            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Squid Game Poppy Playtime Animations #3 fnaf ",
-            "url": "https://www.youtube.com/watch?v=cdnUQ21C4OE"
-        },
-        {
-            "channel name": "Your Mobile Games ",
-            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Squid Game Poppy Playtime Animations #3 fnaf ",
-            "url": "https://www.youtube.com/watch?v=hokgedwgntQ"
-        },
-        {
-            "channel name": "SillyFangirl osu ",
-            "video title": "The BEST FNF MODS!!!!! ",
-            "url": "https://www.youtube.com/watch?v=mWfXkNs-RgQ"
-        },
-        {
-            "channel name": "Minutes Paw ",
-            "video title": "Friday Night Funkin vs HUGGY WUGGY vs Kissy Missy vs FNAF Security Breach in Minecraft Animations #5 ",
-            "url": "https://www.youtube.com/watch?v=Vvw0aCr2c3U"
-        },
-        {
-            "channel name": "FNF' VERSUS ",
-            "video title": "FNF - Dave and Bambi, Mickey Mouse, Pibby, PacMan, Pokemon, Boyfriend and other ",
-            "url": "https://www.youtube.com/watch?v=RzfT8M-maGw"
-        }
-    ],
-    "Stumble Guys: Multiplayer Royale": [
-        {
-            "channel name": "Chaves Games ",
-            "video title": "💫Saabadou mitos! A LENDA no stumble 💫Gratidão e Felicidade💫 STUMBLE GUYS Ao Vivo com Inscritos💫GOCHV ",
-            "url": "https://www.youtube.com/watch?v=p5mHSPjS-xs"
-        },
-        {
-            "channel name": "100FIM TV ",
-            "video title": "💫NOVA ATUALIZAÇAO E NOVO PASSE ESTA CHEGANDO💫STUMBLE GUYS AO VIVO💫LIVE ON💫 ",
-            "url": "https://www.youtube.com/watch?v=aJn7D6EjAME"
-        },
-        {
-            "channel name": "VitinhoGamesRJ ",
-            "video title": "STUMBLE GUYS - O CARNAVAL COM OS BONECO DE MASSINHA SALA  - VEM JOGAR COMIGO - PC OU CELULAR ",
-            "url": "https://www.youtube.com/watch?v=PAb9D7uUc2Q"
-        },
-        {
-            "channel name": "Alca_Play ",
-            "video title": "CAMPEONATO DE STUMBLE GUYS LOTANDO SALAS COM 32 JOGADORES ",
-            "url": "https://www.youtube.com/watch?v=IAYwR-LL4dU"
-        },
-        {
-            "channel name": "CHORA GAMER ",
-            "video title": "💫STUMBLE GUYS AOVIVO💫JOGANDO COM INSCRITOS💫NOVA ATUALIZAÇAO💫INFLUENCIADOR💫TORNEIO BLOCK DASH HJ💫#5k ",
-            "url": "https://www.youtube.com/watch?v=602jC9x2NFM"
+            "channel name": "Pablus MERCY - World of Tanks ",
+            "video title": "Chieftain | МОИМ НЕРВАМ П**ДА! ",
+            "url": "https://www.youtube.com/watch?v=WjPNoyQvb8Y"
         }
     ],
     "Dying Light 2: Stay Human": [
@@ -659,29 +529,27 @@
             "url": "https://www.youtube.com/watch?v=YWPdfotFtvw"
         },
         {
-            "channel name": "JulyWolf ",
-            "video title": "Dying Light 2: Stay Human ➤ НОЧНОЙ ЗАБЕГ ДО ФИНАЛА #5 ",
-            "url": "https://www.youtube.com/watch?v=YbBBoqu1z-8"
-        },
-        {
             "channel name": "AlySSon XO ",
             "video title": "ОБЩАЕМСЯ ИГРАЕМ В ТАНКИ И ОТДЫХАЕМ ",
             "url": "https://www.youtube.com/watch?v=EkkEaXqs_vs"
         },
         {
-            "channel name": "Walking To HELL ",
-            "video title": "Dying Light 2 stay human - Проходим сюжет c Подписчиком ",
-            "url": "https://www.youtube.com/watch?v=SwQnIFqdXYc"
-        }
-    ],
-    "Gran Turismo 7": [
+            "channel name": "JulyWolf ",
+            "video title": "Dying Light 2: Stay Human ➤ НОЧНОЙ ЗАБЕГ ДО ФИНАЛА #5 ",
+            "url": "https://www.youtube.com/watch?v=YbBBoqu1z-8"
+        },
         {
-            "channel name": "Jimmy Broadbent ",
-            "video title": "Trying Not To Spend 2 Hours On 1 Licence Test | Countdown to Gran Turismo 7 ",
-            "url": "https://www.youtube.com/watch?v=iHrBX4bCKW4"
+            "channel name": "Studio PoiSoN 174 TV ",
+            "video title": "🔴ПРОХОЖДЕНИЕ #5🔴/ Dying Light 2: Stay Human /🔴STREAM🔴  [1440p]  [18+] ",
+            "url": "https://www.youtube.com/watch?v=H27b-9J9VBw"
         }
     ],
     "Five Nights at Freddy’s: Security Breach": [
+        {
+            "channel name": "COOL CAT ",
+            "video title": "Freddy Suit vs ROBLOX FNAF Security Breach Animation Five Nights at Freddy's #4 ",
+            "url": "https://www.youtube.com/watch?v=-Sr4zC7VCsw"
+        },
         {
             "channel name": "COOL CAT ",
             "video title": "Freddy Suit vs ROBLOX FNAF Security Breach Animation Five Nights at Freddy's #7 ",
@@ -698,17 +566,105 @@
             "url": "https://www.youtube.com/watch?v=OgZLovoZmyI"
         },
         {
-            "channel name": "Gameplay Boy ",
+            "channel name": "Funny Gameplay ",
             "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Poppy Playtime Animations #1 fnaf security breach ",
-            "url": "https://www.youtube.com/watch?v=bXZFYQFhtG0"
+            "url": "https://www.youtube.com/watch?v=qF_oUUaXVMA"
+        }
+    ],
+    "Pokémon UNITE": [
+        {
+            "channel name": "Pokémon UNITE ",
+            "video title": "EU \\u0026 NA February Finals | Pokémon UNITE Championship Series ",
+            "url": "https://www.youtube.com/watch?v=X_YgyeYPOlA"
         },
         {
-            "channel name": "Your Mobile Games ",
-            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Poppy Playtime Animations #1 fnaf security breach ",
-            "url": "https://www.youtube.com/watch?v=kOxLV6Cg1rw"
+            "channel name": "Assassin Dave UNITE Live ",
+            "video title": "🔴Worlds Feb. Final Watch Party with Foreign Famous | Pokémon UNITE LIVE ",
+            "url": "https://www.youtube.com/watch?v=Ftozw1kj94M"
+        },
+        {
+            "channel name": "Pokémon UNITE ",
+            "video title": "LATAM Finais de Fevereiro | Pokémon UNITE Championship Series ",
+            "url": "https://www.youtube.com/watch?v=RRu40rl9jHE"
+        },
+        {
+            "channel name": "Krashy ",
+            "video title": "POKEMON UNITE CHAMPIONSHIP SERIES WATCH PARTY! (EU \\u0026 NA) !Giveaway ",
+            "url": "https://www.youtube.com/watch?v=RMULZPkYC_U"
+        },
+        {
+            "channel name": "BesttaCube ",
+            "video title": "✨ NUEVO POKEMON HOOPA GRATIS en DIRECTO de POKEMON UNITE✨ ",
+            "url": "https://www.youtube.com/watch?v=N31bVVgMVKQ"
+        }
+    ],
+    "Dota 2": [
+        {
+            "channel name": "❤ SweetEgor ",
+            "video title": "💜 Dota 2 Рейтинговые игры на 3000. Фейк аккаунт. Общаемся с чатом ",
+            "url": "https://www.youtube.com/watch?v=KiJBp7dupXo"
+        },
+        {
+            "channel name": "arteans ",
+            "video title": "НОВЫЙ ГЕРОЙ ПРАЙМАЛ БИСТ! ТЕСТИРУЕМ ПАТЧ 7.31 DOTA 2 ",
+            "url": "https://www.youtube.com/watch?v=PmNTx85_Bvk"
+        },
+        {
+            "channel name": "MILORD DOTA 2 ",
+            "video title": "🔥 ДОТА 2 СТРИМ 🔥 ",
+            "url": "https://www.youtube.com/watch?v=M04FTW1sWXc"
+        },
+        {
+            "channel name": "MOLODOOY ",
+            "video title": "🔥 ОТ РЕКРУТА ДО ТИТАНА 🔥 РОЗЫГРЫШ АРКАНЫ | Стрим Дота 2 | Dota 2 | ПАТЧ 7.31 ",
+            "url": "https://www.youtube.com/watch?v=QO9mkCw2aEs"
+        },
+        {
+            "channel name": "XEN_AZES ",
+            "video title": "Всем привет | Как и говорил игры с комментариями | Ехала 3-4 игры. После игры с подписчиками ",
+            "url": "https://www.youtube.com/watch?v=dCC-bl4jVag"
+        }
+    ],
+    "Gran Turismo 7": [
+        {
+            "channel name": "Jimmy Broadbent ",
+            "video title": "Trying Not To Spend 2 Hours On 1 Licence Test | Countdown to Gran Turismo 7 ",
+            "url": "https://www.youtube.com/watch?v=iHrBX4bCKW4"
+        }
+    ],
+    "Stumble Guys: Multiplayer Royale": [
+        {
+            "channel name": "Chaves Games ",
+            "video title": "💫Saabadou mitos! A LENDA no stumble 💫Gratidão e Felicidade💫 STUMBLE GUYS Ao Vivo com Inscritos💫GOCHV ",
+            "url": "https://www.youtube.com/watch?v=p5mHSPjS-xs"
+        },
+        {
+            "channel name": "Nickoffz ",
+            "video title": "⚡SÓ BORA NICKZEIRA NA ÁREA 😎 STUMBLE GUYS AO VIVO⚡TORNEIO 4V4 DO CHAVIX💫 @Chaves Games ",
+            "url": "https://www.youtube.com/watch?v=xDUTFGNaZT4"
+        },
+        {
+            "channel name": "VitinhoGamesRJ ",
+            "video title": "STUMBLE GUYS - O CARNAVAL COM OS BONECO DE MASSINHA SALA  - VEM JOGAR COMIGO - PC OU CELULAR ",
+            "url": "https://www.youtube.com/watch?v=PAb9D7uUc2Q"
+        },
+        {
+            "channel name": "MALADO TV ",
+            "video title": "🔥 STUMBLE GUYS - AO VIVO 🔥JOGANDO COM OS INSCRITOS!🔥VENHA JOGAR E SE DIVERTIR  🔥 ",
+            "url": "https://www.youtube.com/watch?v=TM0mcl9RmwU"
+        },
+        {
+            "channel name": "BRTTZ ",
+            "video title": "💫 NOVO INFLUENCER VEM  💫LIVE STUMBLE GUYS AO VIVO💫 ‹💫 ‹ TLF BRTTZ › 💫 ",
+            "url": "https://www.youtube.com/watch?v=bvy9KoEJJ5k"
         }
     ],
     "Total War: Warhammer III": [
+        {
+            "channel name": "HardKrest ",
+            "video title": "Total War Warhammer 3 - прохождение - Кислев - Legendary =2= Первый претендент ",
+            "url": "https://www.youtube.com/watch?v=-W0HDZLKEeM"
+        },
         {
             "channel name": "LegendofTotalWar ",
             "video title": "Warhammer 3 THIS IS TOTAL WAR SKARBRAND Livestream Part 4 ",
@@ -725,11 +681,6 @@
             "url": "https://www.youtube.com/watch?v=dxfuse1Xmeo"
         },
         {
-            "channel name": "Scipio ",
-            "video title": "ВТОРЖЕНИЕ СИЛ ХАОСА! ДЗИНЧ И НУРГЛ ОБЪЕДИНИЛИСЬ! TOTAL WAR:WARHAMMER 3 ",
-            "url": "https://www.youtube.com/watch?v=GKTCn5SbwDE"
-        },
-        {
             "channel name": "Gera GameStudios ",
             "video title": "Total War: WARHAMMER III - Салаанеш наше все. ",
             "url": "https://www.youtube.com/watch?v=PNtLlzMeNQ8"
@@ -742,9 +693,9 @@
             "url": "https://www.youtube.com/watch?v=VEQJ_HbEDRE"
         },
         {
-            "channel name": "bloodspot ",
-            "video title": "Warzone - ночной стрим | RTX3080 | 2К | ",
-            "url": "https://www.youtube.com/watch?v=PgivnlOXlb0"
+            "channel name": "ONE EYE GAMER ",
+            "video title": "WARZONE SOLOS SEASON 2 UPDATE AND CUSTOM LOBBIES ",
+            "url": "https://www.youtube.com/watch?v=HO9m40SNsdU"
         },
         {
             "channel name": "SoCaLove ",
@@ -757,66 +708,17 @@
             "url": "https://www.youtube.com/watch?v=RHhI-d8LacY"
         },
         {
-            "channel name": "ONE EYE GAMER ",
-            "video title": "WARZONE SOLOS SEASON 2 UPDATE AND CUSTOM LOBBIES ",
-            "url": "https://www.youtube.com/watch?v=HO9m40SNsdU"
-        }
-    ],
-    "Yu-Gi-Oh! Master Duel": [
-        {
-            "channel name": "Schattenspieler ",
-            "video title": "Yu-Gi-Oh! MASTER DUEL! TURNIER! Lets goooo! ",
-            "url": "https://www.youtube.com/watch?v=n8GCjXSc4tM"
-        },
-        {
-            "channel name": "YamiBlood The Pharaoh ",
-            "video title": "NEVER QUIT: PLAT 1 CLIMB WITH METAPHYS IN MASTER DUEL! ",
-            "url": "https://www.youtube.com/watch?v=Z8N1ykcYRQ8"
-        },
-        {
-            "channel name": "汐海ワカ ",
-            "video title": "【遊戯王マスターデュエル】雑談しつつランク🎖Gold 5～【 #汐海ワカ 】 ",
-            "url": "https://www.youtube.com/watch?v=uA8zaBNlYSs"
-        },
-        {
-            "channel name": "crazy monkey card's ",
-            "video title": "JUGANDO MASTER DUEL CON CTMORCUST Entra a retarlo ",
-            "url": "https://www.youtube.com/watch?v=MYtLmCc-PF4"
-        },
-        {
-            "channel name": "陰キャ最前線 ",
-            "video title": "【遊戯王マスターデュエル】ディフォーマーデッキでランクマッチ！【VTuber/大きなおでん種】 ",
-            "url": "https://www.youtube.com/watch?v=VRuFnTXPKSg"
-        }
-    ],
-    "7 Days to Die": [
-        {
-            "channel name": "Jack Pavlov - Games ",
-            "video title": "7 Days To Die (alpha 20). Стрим 025. Мастерская ",
-            "url": "https://www.youtube.com/watch?v=sZEzocEavFc"
-        },
-        {
-            "channel name": "Tak ",
-            "video title": "7 Days to Die [20.1] мод BackToOrigins #23: Скучный стрим.... ",
-            "url": "https://www.youtube.com/watch?v=QjLEFWvuico"
-        },
-        {
-            "channel name": "Evening Games ",
-            "video title": "7 Days to Die. Alpha 20 Сезон-4 серия-25 ",
-            "url": "https://www.youtube.com/watch?v=VmWDptYVkoY"
-        },
-        {
-            "channel name": "사회인 게임클럽 ",
-            "video title": "220226 이 거지 같은 곳에 두 번 씩이나 버려지다니... [7days to die] ",
-            "url": "https://www.youtube.com/watch?v=dEi3z6jQoQA"
-        },
-        {
-            "channel name": "MiLKMAN ",
-            "video title": "7days to die フォールアウトの世界になるMODやる！ ",
-            "url": "https://www.youtube.com/watch?v=ykZJ99Wdbt0"
+            "channel name": "BGT ",
+            "video title": "🔴WARZONE  12900K 3090rtx 1440p ",
+            "url": "https://www.youtube.com/watch?v=jBYqmetmrXs"
         }
     ],
     "Poppy Playtime": [
+        {
+            "channel name": "just gameplay ",
+            "video title": "poppy playtime huggy wuggy friday night funkin squid game siren head animation scary horror game ",
+            "url": "https://www.youtube.com/watch?v=-SZtPCwNN14"
+        },
         {
             "channel name": "TOPgames ",
             "video title": "Poppy Playtime,Save The Girl,Squid Game,Blob Runner 3D, Roblox,My Angela,Spiderman Ball ",
@@ -828,22 +730,180 @@
             "url": "https://www.youtube.com/watch?v=gkO8GLdJhP8"
         },
         {
-            "channel name": "just gameplay ",
-            "video title": "poppy playtime huggy wuggy friday night funkin squid game siren head animation scary horror game ",
-            "url": "https://www.youtube.com/watch?v=-SZtPCwNN14"
+            "channel name": "미다스 ",
+            "video title": "갑분공포겜 파피플레이타임 넘 무서움ㅣ미다스형 몰래 키는 방송(탄) ",
+            "url": "https://www.youtube.com/watch?v=_TWIS5n0CRg"
         },
         {
-            "channel name": "Poppy Woppy ",
-            "video title": "LIVE 🔴 Best FUNNY Moments Huggy Wuggy 🔴 Poppy Playtime Chapter 2 Gameplay ",
-            "url": "https://www.youtube.com/watch?v=rSj4aDgM1-g"
-        },
-        {
-            "channel name": "ヒナミソラ - Misora Hina【WACTOR】 ",
-            "video title": "【Poppy Playtime】Hola elmo azul【WACTOR/#ヒナミソラ】 ",
-            "url": "https://www.youtube.com/watch?v=oQVZUcxBczQ"
+            "channel name": "Funny Moments Horror ",
+            "video title": "Poppy Horror | New Game Poppy Playtime Full Gameplay Walkthrough P2 # 25 ",
+            "url": "https://www.youtube.com/watch?v=BGkmHcSm54k"
         }
     ],
-    "Machinarium": [],
+    "7 Days to Die": [
+        {
+            "channel name": "Jack Pavlov - Games ",
+            "video title": "7 Days To Die (alpha 20). Стрим 025. Мастерская ",
+            "url": "https://www.youtube.com/watch?v=sZEzocEavFc"
+        },
+        {
+            "channel name": "Evening Games ",
+            "video title": "7 Days to Die. Alpha 20 Сезон-4 серия-25 ",
+            "url": "https://www.youtube.com/watch?v=VmWDptYVkoY"
+        },
+        {
+            "channel name": "사회인 게임클럽 Трансляция закончилась 22 секунды назад 9 часов 25 минут ",
+            "video title": "220226 이 거지 같은 곳에 두 번 씩이나 버려지다니... [7days to die] ",
+            "url": "https://www.youtube.com/watch?v=dEi3z6jQoQA"
+        },
+        {
+            "channel name": "MiLKMAN ",
+            "video title": "7days to die フォールアウトの世界になるMODやる！ ",
+            "url": "https://www.youtube.com/watch?v=ykZJ99Wdbt0"
+        },
+        {
+            "channel name": "Kružítko 77 ",
+            "video title": "7 Day To Die - Alpha 20 - #05 - Blodmoon base test 2 / Next Days Server (1080p60) cz/sk ",
+            "url": "https://www.youtube.com/watch?v=7C-g5nPDYTE"
+        }
+    ],
+    "Баккара Кинг: Баккара Бесплатные Игры Казино": [],
+    "FIFA Street": [],
+    "FIFA 22": [
+        {
+            "channel name": "GandikapFC ",
+            "video title": "TOTY СПАРТАК | WL 0-20 | FIFA 22 ",
+            "url": "https://www.youtube.com/watch?v=Qc-s12-TnTE"
+        },
+        {
+            "channel name": "WRONG21FIFA ",
+            "video title": "FUT CHAMPIONS БЕЗ НЕРВОВ И ПОЛИТИКИ | FIFA 22 ",
+            "url": "https://www.youtube.com/watch?v=-LMNDWosZ4I"
+        },
+        {
+            "channel name": "Дневник Фифера ",
+            "video title": "FIFA22 На диване))) Играем ВЛ))) Всем мира!!! ",
+            "url": "https://www.youtube.com/watch?v=tv3rS-HxVF4"
+        },
+        {
+            "channel name": "Vass1ly ",
+            "video title": "[LIVE] FIFA 22 ULTIMATE TEAM SQUAD BATTLES #140  - PLAYSTATION 4 PRO - #AOVIVO #LIVE ",
+            "url": "https://www.youtube.com/watch?v=KfCOXzql4aY"
+        },
+        {
+            "channel name": "STAVGAME ",
+            "video title": "FIFA 22 RPL+FNL КАРЬЕРА ЦСКА #2 ",
+            "url": "https://www.youtube.com/watch?v=lJonygrtdYM"
+        }
+    ],
+    "World of Warships": [
+        {
+            "channel name": "Xtigmaaa ",
+            "video title": "World of Warships.  Preussen имба? Да нее, дамажка для противника ",
+            "url": "https://www.youtube.com/watch?v=RMYKwHDdEVg"
+        },
+        {
+            "channel name": "Maniakpro ",
+            "video title": "Субботний нагиб! [Smile, Смайл] [Maniakpro, Маньяк] [Stream, Стрим] [Wows] [World of warships] ",
+            "url": "https://www.youtube.com/watch?v=Bu34HHbnogA"
+        },
+        {
+            "channel name": "Wreck Factory *stalkerMAN1g* ",
+            "video title": "Стрим: Проходим кампанию. WORLD OF WARSHIPS LEGENDS ",
+            "url": "https://www.youtube.com/watch?v=XLIHZtTg1AQ"
+        },
+        {
+            "channel name": "Str3sU ",
+            "video title": "Ma Mananca Palma Stanga, Incep BANII sa se STRANGA doar PE !FRANK pe NIGHTBOT, DUPA DAM LOL ",
+            "url": "https://www.youtube.com/watch?v=jQ1NO-xn3pY"
+        },
+        {
+            "channel name": "Hustle xz ",
+            "video title": "🔴 LIVE - 1v1 T6 RANKED | Can I get a Win in Abruzzi?!?! ",
+            "url": "https://www.youtube.com/watch?v=HKlVV8CMvQo"
+        }
+    ],
+    "Battlegrounds Mobile India": [
+        {
+            "channel name": "Dance To Dance ",
+            "video title": "Bgmi Live Custom Rooms | Everyday Bgmi Custom Rooms Live | Battleground Mobile India | Game Guru ",
+            "url": "https://www.youtube.com/watch?v=I5dbhj_1H6Y"
+        },
+        {
+            "channel name": "KAPIL FF ",
+            "video title": "🔴BGMI LIVE UC GIVEAWAY || #BGMI #UC GIVEAWAY || BGMI CUSTOM ROOM GIVEAWAY || GIVE SUPER CHAT TAKE UC ",
+            "url": "https://www.youtube.com/watch?v=H9OC_2zr_jk"
+        },
+        {
+            "channel name": "DracoGames ",
+            "video title": "AWM LUCKY CRATE  SPIN  | BGMI  DRACO GAMES LIVE ",
+            "url": "https://www.youtube.com/watch?v=-esigkFPPoI"
+        },
+        {
+            "channel name": "DTL MARTIN YT ",
+            "video title": "Solo Vs Squad BGMI (Emulator) Telugu | Pubg Telugu Live | bgmi telugu#pubgtelugulive #bgmi #bgmilive ",
+            "url": "https://www.youtube.com/watch?v=UK-z7RJvKV4"
+        },
+        {
+            "channel name": "DR ABHI PANDAT ",
+            "video title": "NEW AWM MAX KARE YA AKM??🔥- ROAD TO 400K❤😎  - BATTLEGROUNDS MOBILE INDIA LIVE #bgmi ",
+            "url": "https://www.youtube.com/watch?v=Ka5DHVLEH8I"
+        }
+    ],
+    "NBA 2K22": [
+        {
+            "channel name": "OkoDre ",
+            "video title": "🔴LIVE - Fresh Start 0-1 Million MT ( NO MONEY SPENT) ep#2 ",
+            "url": "https://www.youtube.com/watch?v=qiV4jtpK424"
+        },
+        {
+            "channel name": "Solo DF ",
+            "video title": "WINNING FIRST GOLD RUSH LIVE IN NBA 2K22! HITTING 500K SUBSCRIBERS! BEST BUILD \\u0026 JUMPSHOT NBA2K22! ",
+            "url": "https://www.youtube.com/watch?v=n4rJdRRdsjU"
+        },
+        {
+            "channel name": "The Prophecy ",
+            "video title": "I'M SORRY 💔 ",
+            "url": "https://www.youtube.com/watch?v=UMhdj6jwzqg"
+        },
+        {
+            "channel name": "Jay Amir Трансляция закончилась 33 секунды назад 3 часа 31 минута ",
+            "video title": "WINNING MOBILE 1 EVENT RIGHT NOW!! BEST GUARD ON NBA 2K22 NEXT GEN! ROAD TO 20K!! SUB UP!! ",
+            "url": "https://www.youtube.com/watch?v=Op0GX_Ai-dQ"
+        },
+        {
+            "channel name": "THATGUYBEANZ ",
+            "video title": "NBA2K22 LIVE STREAM NOW | WINNING GOLD RUSH!!! | STREAM 57 OF 365 | !TIKTOK ",
+            "url": "https://www.youtube.com/watch?v=AntfyThhLHk"
+        }
+    ],
+    "Rust": [
+        {
+            "channel name": "HumenBrain ",
+            "video title": "Соло игрок против кланов Rust/Раст ",
+            "url": "https://www.youtube.com/watch?v=WCttQmDMMT8"
+        },
+        {
+            "channel name": "ElfEjan ",
+            "video title": "(Rust|Раст|LIVE | СТРИМ |) Вайп  На Оф Сервере  !!! ",
+            "url": "https://www.youtube.com/watch?v=hgoi0w_C7vk"
+        },
+        {
+            "channel name": "АДЕКВАК ",
+            "video title": "RUST--ЗЛЫЕ СОСЕДИ!  (1440р) ",
+            "url": "https://www.youtube.com/watch?v=48EPrQ8NMJA"
+        },
+        {
+            "channel name": "ddM ",
+            "video title": "Вечерний ddM на офф сервере в Rust / Раст ",
+            "url": "https://www.youtube.com/watch?v=5956hpM_ldg"
+        },
+        {
+            "channel name": "KIVI ",
+            "video title": "►RUST - С НОВЫМИ СИЛАМИ ПРОДОЛЖАЮ ВАЙП! ",
+            "url": "https://www.youtube.com/watch?v=K6uSbubaR4E"
+        }
+    ],
     "Pokémon Go": [
         {
             "channel name": "LiftingandZombies ",
@@ -871,296 +931,86 @@
             "url": "https://www.youtube.com/watch?v=o6_GqNR7R24"
         }
     ],
-    "Rust": [
+    "Gates of Olympus Slot Pragmatic": [],
+    "Call of Duty: Black Ops III": [
         {
-            "channel name": "HumenBrain ",
-            "video title": "Соло игрок против кланов Rust/Раст ",
-            "url": "https://www.youtube.com/watch?v=WCttQmDMMT8"
+            "channel name": "Boigin GAMING ",
+            "video title": "SALLAH ",
+            "url": "https://www.youtube.com/watch?v=R-X6R2GZQ-A"
         },
         {
-            "channel name": "Стич ",
-            "video title": "ДУО СТАРТ. СТРИМ РАСТ/RUST ",
-            "url": "https://www.youtube.com/watch?v=RP0IhoZqRSU"
+            "channel name": "やよぼい ",
+            "video title": "いろいろ ",
+            "url": "https://www.youtube.com/watch?v=N1ygy4KRWME"
         },
         {
-            "channel name": "ElfEjan ",
-            "video title": "(Rust|Раст|LIVE | СТРИМ |) Вайп  На Оф Сервере  !!! ",
-            "url": "https://www.youtube.com/watch?v=hgoi0w_C7vk"
+            "channel name": "JusSaiyan747 ",
+            "video title": "🟢APEX RANDOMNESS FOR A BIT + SUBB GOAL 427/1K ",
+            "url": "https://www.youtube.com/watch?v=iCev_PA2J64"
         },
         {
-            "channel name": "ddM ",
-            "video title": "Вечерний ddM на офф сервере в Rust / Раст ",
-            "url": "https://www.youtube.com/watch?v=5956hpM_ldg"
+            "channel name": "Team AK Gaming ",
+            "video title": "PLAYING WITH SUBSCRIBER ❤️❤️ para SAMSUNG A3,A5,A6,A7,J2,J5,J7,S5,S6,S7,S9,A10,A20,A30,A50,A70, FF ",
+            "url": "https://www.youtube.com/watch?v=UgUWAS2qqP8"
         },
         {
-            "channel name": "lady_blonde ",
-            "video title": "РОЗЫГРЫШ СКИНОВ RUST ",
-            "url": "https://www.youtube.com/watch?v=DlKzGEB1irY"
+            "channel name": "Impact-_Carnage ",
+            "video title": "Live call of duty black ops 3 ( multijoueur ) ",
+            "url": "https://www.youtube.com/watch?v=ZEd3uwua9XY"
         }
     ],
-    "Uma Musume: Pretty Derby": [
+    "Resident Evil 5": [
         {
-            "channel name": "オタクチャンネル ",
-            "video title": "【ウマ娘】新シナリオが神すぎると話題にｗｗｗｗ　チャンミに向けて育成＆周回【ピスケス杯/新シナリオ】 ",
-            "url": "https://www.youtube.com/watch?v=8nOa4p1FSfA"
+            "channel name": "",
+            "video title": "EFAP #175 - Checking out Arcane's \\ ",
+            "url": "https://www.youtube.com/watch?v=7niDejGDXwg"
         },
         {
-            "channel name": "桜のウマ娘攻略ch ",
-            "video title": "【ウマ娘】UG狙い。解説しながら育成!!の生配信【ピスケス杯】 ",
-            "url": "https://www.youtube.com/watch?v=HDaJ5SbUTUk"
+            "channel name": "LIVES MODO DIFICIL ",
+            "video title": "LIVE JOGANDO RESIDENT EVIL 5 LEGENDADO MODO VETERANO DIFICIL ATÉ ZERAR PC GAMEPLAY 2022 ",
+            "url": "https://www.youtube.com/watch?v=JV76K2d1o5I"
         },
         {
-            "channel name": "とりの ",
-            "video title": "【ピスケス杯オープン】眠れません【ウマ娘】 ",
-            "url": "https://www.youtube.com/watch?v=9Wi1eJ_14Zc"
+            "channel name": "Ailtonjorro ",
+            "video title": "Resident Evil 5  -  Lostadanii Pack 2 - Boss Mania ",
+            "url": "https://www.youtube.com/watch?v=uspbudCcePg"
         },
         {
-            "channel name": "びぃちゃんねる ",
-            "video title": "【ウマ娘深夜枠】新シナリオで強い育成できない人に少しだけ教えます ",
-            "url": "https://www.youtube.com/watch?v=154e_ZlF184"
+            "channel name": "DirtyKingOfHeart ",
+            "video title": "Re5 ",
+            "url": "https://www.youtube.com/watch?v=qujiTXgfztg"
+        },
+        {
+            "channel name": "Louigh ",
+            "video title": "RE5 Night Stream w/Maike PT Versus Mode ",
+            "url": "https://www.youtube.com/watch?v=Is6t9OfnR8k"
         }
     ],
-    "FIFA 22": [
+    "Friday Night Funkin’": [
         {
-            "channel name": "GandikapFC ",
-            "video title": "TOTY СПАРТАК | WL 0-20 | FIFA 22 ",
-            "url": "https://www.youtube.com/watch?v=Qc-s12-TnTE"
+            "channel name": "SillyFangirl osu ",
+            "video title": "The BEST FNF MODS!!!!! ",
+            "url": "https://www.youtube.com/watch?v=mWfXkNs-RgQ"
         },
         {
-            "channel name": "WRONG21FIFA ",
-            "video title": "FUT CHAMPIONS БЕЗ НЕРВОВ И ПОЛИТИКИ | FIFA 22 ",
-            "url": "https://www.youtube.com/watch?v=-LMNDWosZ4I"
+            "channel name": "Funny Gameplay ",
+            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Squid Game Poppy Playtime Animations #3 fnaf ",
+            "url": "https://www.youtube.com/watch?v=cdnUQ21C4OE"
         },
         {
-            "channel name": "STAVGAME ",
-            "video title": "FIFA 22 RPL+FNL КАРЬЕРА ЦСКА #2 ",
-            "url": "https://www.youtube.com/watch?v=lJonygrtdYM"
+            "channel name": "Gameplay Boy ",
+            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Squid Game Poppy Playtime Animations #3 fnaf ",
+            "url": "https://www.youtube.com/watch?v=738Lt1P_rQw"
         },
         {
-            "channel name": "Ito 1blackpanteranegra Simulação ",
-            "video title": "🔴FIFA22🎮Ultimate Team chama na pressão vamos ",
-            "url": "https://www.youtube.com/watch?v=632FeibThKc"
+            "channel name": "Your Mobile Games ",
+            "video title": "HUGGY WUGGY Playtime vs Friday Night Funkin vs Squid Game Poppy Playtime Animations #3 fnaf ",
+            "url": "https://www.youtube.com/watch?v=hokgedwgntQ"
         },
         {
-            "channel name": "Adryan ",
-            "video title": "PLAYER PICK z IKONĄ + NAGRODY za FUT CHAMPIONS i 2 DECYDUJĄCE MECZE O RANDZE! ",
-            "url": "https://www.youtube.com/watch?v=OrGK0WBYUIQ"
-        }
-    ],
-    "NBA 2K22": [
-        {
-            "channel name": "Jay Amir ",
-            "video title": "WINNING MOBILE 1 EVENT RIGHT NOW!! BEST GUARD ON NBA 2K22 NEXT GEN! ROAD TO 20K!! SUB UP!! ",
-            "url": "https://www.youtube.com/watch?v=Op0GX_Ai-dQ"
-        },
-        {
-            "channel name": "Solo DF ",
-            "video title": "WINNING FIRST GOLD RUSH LIVE IN NBA 2K22! HITTING 500K SUBSCRIBERS! BEST BUILD \\u0026 JUMPSHOT NBA2K22! ",
-            "url": "https://www.youtube.com/watch?v=n4rJdRRdsjU"
-        },
-        {
-            "channel name": "OkoDre ",
-            "video title": "🔴LIVE - Fresh Start 0-1 Million MT ( NO MONEY SPENT) ep#2 ",
-            "url": "https://www.youtube.com/watch?v=qiV4jtpK424"
-        },
-        {
-            "channel name": "AWThePrezident ",
-            "video title": "SHOULD I BUY DARK MATTER KAWHI, KOBE, OR TMAC? NBA 2K22 MYTEAM | GALAXY OPAL CADE IS HOME! ",
-            "url": "https://www.youtube.com/watch?v=d1mbwpJIWXM"
-        },
-        {
-            "channel name": "THATGUYBEANZ ",
-            "video title": "NBA2K22 LIVE STREAM NOW | WINNING GOLD RUSH!!! | STREAM 57 OF 365 | !TIKTOK ",
-            "url": "https://www.youtube.com/watch?v=AntfyThhLHk"
-        }
-    ],
-    "PlayerUnknown’s Battlegrounds": [
-        {
-            "channel name": "Morsy ",
-            "video title": "МЫ ИГРАЕМ ТУТ В ИГРУ 🔴 СТРИМ PUBG LIVE ",
-            "url": "https://www.youtube.com/watch?v=RSv0XUAORDM"
-        },
-        {
-            "channel name": "Joneek ",
-            "video title": "🙀Ночной PUBG | Наводим суету | Без мата и политики ❤️‍🔥 | Девушка играет | Вечернее общение❤️‍🔥 ",
-            "url": "https://www.youtube.com/watch?v=tbJijc29Yz0"
-        },
-        {
-            "channel name": "Osdas ",
-            "video title": "+ FPS?! RANKED | PUBG 2K !tg ",
-            "url": "https://www.youtube.com/watch?v=_7-rgrLxmTw"
-        },
-        {
-            "channel name": "лэйрон ",
-            "video title": "СТРИМ ИЗ БУНКЕРА (нет) ",
-            "url": "https://www.youtube.com/watch?v=O2Ghl7BUJos"
-        },
-        {
-            "channel name": "Тот самый ЁМА ",
-            "video title": "УШУЛ КУНДУ КАНЧА КУТТУК ЭФИР😊|KYRGYZ PUBG ",
-            "url": "https://www.youtube.com/watch?v=OCOgXwpSCiU"
-        }
-    ],
-    "Grand Theft Auto: San Andreas": [
-        {
-            "channel name": "Chekande ",
-            "video title": "СТРИМ! Мирное небо над головой RADMIR RP + GTA 5  RADMIR RP CRMP ",
-            "url": "https://www.youtube.com/watch?v=Z6yVaQmW1c4"
-        },
-        {
-            "channel name": "Kevin Seagers ",
-            "video title": "НАХ*Й ВОЙНУ! НОЧНОЙ СТРИМЕЦ, ПОДНИМАЕМ НАСТРОЕНИЕ НА ARIZONA RP GTA SAMP ",
-            "url": "https://www.youtube.com/watch?v=QZcUHcHW_So"
-        },
-        {
-            "channel name": "SNAPI LIVE ",
-            "video title": "СТРИМ ПО BLACK RUSSIA - ПРОКАЧКА СЕМЬИ в блек раша крмп ",
-            "url": "https://www.youtube.com/watch?v=j3cAD5LBu4A"
-        },
-        {
-            "channel name": "Adrian Hardy ",
-            "video title": "Я ВЕРНУЛСЯ ! СНОВА БОМЖ ! АДМИН БУДНИ ! 11 / 14 СЕРВЕР RADMIR RP / РАДМИР РП ",
-            "url": "https://www.youtube.com/watch?v=Yq3bWhb3Ysw"
-        },
-        {
-            "channel name": "MYERS ",
-            "video title": "ЗАЙДИ на СТРИМ и ЗАБЕРИ 230.000р🔥СТРИМ🔞БЕЗ МАТА🔞РАДМИР РП КРМП GTA5 SAMP HASSLE🔞МАТ=1кк РАЗДАЮ ЧАТУ💰 ",
-            "url": "https://www.youtube.com/watch?v=5FpN8Pp9WPw"
-        }
-    ],
-    "Stardew Valley": [
-        {
-            "channel name": "SlyMcraft Gaming ",
-            "video title": "Updating my Farm - Stardew Valley Gameplay - Multiplayer Farm - Year 6 ",
-            "url": "https://www.youtube.com/watch?v=BM3hUoA7ioA"
-        },
-        {
-            "channel name": "Decline Music ",
-            "video title": "Играем в Stardew Valley \\\\ Playing In Stardew Valley (Game Stream #22) ",
-            "url": "https://www.youtube.com/watch?v=10jH4j4q3no"
-        },
-        {
-            "channel name": "Adam Roffel ",
-            "video title": "Lochlan and Dad Play Stardew Valley PLUS Hundred Days Switch Giveaway! ",
-            "url": "https://www.youtube.com/watch?v=KrhS988OE6c"
-        },
-        {
-            "channel name": "YeetusBeatus ",
-            "video title": "Farming Live In Stardew Valley ",
-            "url": "https://www.youtube.com/watch?v=PXOrkO_deJ4"
-        },
-        {
-            "channel name": "Danimates ",
-            "video title": "Stardew Valley but we fish the entire time (Feat NoahMania, Wulras, and Dabo) ",
-            "url": "https://www.youtube.com/watch?v=8GHUl2A0yEM"
-        }
-    ],
-    "Brawl Stars": [
-        {
-            "channel name": "Talking Tom Movie ",
-            "video title": "ОБЗОР ВЕСЕЛЫХ ИГР СРЕДИ НАС, КРАСНЫЙ ШАР 4, Злая Учительница, БРАВЛ СТАРС, Троль Квест - часть 543 ",
-            "url": "https://www.youtube.com/watch?v=AbssHgpU2hI"
-        },
-        {
-            "channel name": "VKozanchyn ",
-            "video title": "ИГРАЕМ С ПОДПИСЧИКАМИ🔥СТРИМ БРАВЛ СТАРС ",
-            "url": "https://www.youtube.com/watch?v=f7d2E3sufP0"
-        },
-        {
-            "channel name": "Beast BS ",
-            "video title": "Смотрим Brawl Talk! Долгий Стрим! ",
-            "url": "https://www.youtube.com/watch?v=My8yJy_8FRc"
-        },
-        {
-            "channel name": "LoKsik Stream ",
-            "video title": "24 ЧАСА СТРИМ ПО БРАВЛ СТАРС (НЕ КЛИКБЕЙТ) | БРАВЛ СТАРС СТРИМ | ЛОКСИК СТРИМ ",
-            "url": "https://www.youtube.com/watch?v=Ol9Y4ZhahWo"
-        },
-        {
-            "channel name": "PlayGirl LenOk ",
-            "video title": "СТРИМ I Играем с вами в мини-игры в бравл старс / Brawl Stars ",
-            "url": "https://www.youtube.com/watch?v=hO8horRHHkI"
-        }
-    ],
-    "Forza Horizon 5": [
-        {
-            "channel name": "Sonchyk ",
-            "video title": "НАБИРАЕМСЯ ПОЗИТИВА! СТРИМ ИЗ ОДЕССЫ-МАМЫ FORZA HORIZON 5 ",
-            "url": "https://www.youtube.com/watch?v=DzIHN8xGGGM"
-        },
-        {
-            "channel name": "Кисель ",
-            "video title": "IS THAT A SUPRA КИСЕЛЬ ИГРАЕТ В Forza Horizon 5 ",
-            "url": "https://www.youtube.com/watch?v=qgLuJne3pzA"
-        },
-        {
-            "channel name": "TbOne ",
-            "video title": "LG UltraGear Streamer Invitational presents Forza Horizon 5 Event ",
-            "url": "https://www.youtube.com/watch?v=W8Ix_vP9ODI"
-        },
-        {
-            "channel name": "BloodLine ",
-            "video title": "#1 Winner of LG Ultragear Streamer Event ",
-            "url": "https://www.youtube.com/watch?v=mAgXM36Fvzo"
-        },
-        {
-            "channel name": "SSpeedy97 ",
-            "video title": "Forza Horizon 5 ANYTHING GOES CAR MEET I CAR SHOWS I CRUISE I RACES ",
-            "url": "https://www.youtube.com/watch?v=BkGa4RgIVDI"
-        }
-    ],
-    "Horizon Forbidden West": [
-        {
-            "channel name": "G1deon ",
-            "video title": "Стрим: Horizon Forbidden West #11 - ЭТО ФИНАЛ! БИТВА С ГЛАВНЫМ ПЕЛЬМЕНЕМ! ПОЛУЧИТСЯ ЕГО БАХНУТЬ? ",
-            "url": "https://www.youtube.com/watch?v=yARLSc5elGw"
-        },
-        {
-            "channel name": "HFA ",
-            "video title": "🔴Мир сошел с ума! 【 Horizon Forbidden West 】на PS5 часть #6 ",
-            "url": "https://www.youtube.com/watch?v=ZqBrNIU-ptQ"
-        },
-        {
-            "channel name": "Kuzmitch ",
-            "video title": "Прохождение Horizon Forbidden West (Запретный Запад) PS5 - Стрим 6 ",
-            "url": "https://www.youtube.com/watch?v=2ZPS5NAxnvM"
-        },
-        {
-            "channel name": "ALina_ astrID ",
-            "video title": "HORIZON FORBIDDEN WEST/ ПОЛНОЕ ПРОХОЖДЕНИЕ/ ЗАПРЕТНЫЙ ЗАПАД/ ОБЗОР/ #3 ",
-            "url": "https://www.youtube.com/watch?v=Dt39nI2QfCA"
-        },
-        {
-            "channel name": "delikates ",
-            "video title": "Horizon 2: Forbidden West▲Запретный Запад▼СЛОЖНОСТЬ: ОЧЕНЬ ВЫСОКИЙ💀НА 100%●Прохождение #13◆4K(2160p) ",
-            "url": "https://www.youtube.com/watch?v=1A5ZUW56bu4"
-        }
-    ],
-    "Farming Simulator 22": [
-        {
-            "channel name": "Церберок ",
-            "video title": "Farming Simulator 22. Кооператив. ЧАСТЬ 17. Патч 1.3. Обновление. Смотрим что изменилось. ",
-            "url": "https://www.youtube.com/watch?v=VNiq12dqfk8"
-        },
-        {
-            "channel name": "Boroda►play ",
-            "video title": "Farming simulator 22. Переезд в сельскую местность. (Coop) №1 ",
-            "url": "https://www.youtube.com/watch?v=j1HS-Uxe-uo"
-        },
-        {
-            "channel name": "Clondike ",
-            "video title": "FS22 Фарминг как никогда! ",
-            "url": "https://www.youtube.com/watch?v=x2n5dgjA2Lc"
-        },
-        {
-            "channel name": "Serega_56 ",
-            "video title": "Farming Simulator 22. Карьера, часть 44. ",
-            "url": "https://www.youtube.com/watch?v=1dTJhnJgKmI"
-        },
-        {
-            "channel name": "The_Godfather ",
-            "video title": "Карта Млиниська часть 7 прикупаем землю!!! Farming Simulator 2022 ",
-            "url": "https://www.youtube.com/watch?v=_DnsCZRH808"
+            "channel name": "Triple gay ",
+            "video title": "Mic On | early fnf stream!! :D hi! ",
+            "url": "https://www.youtube.com/watch?v=eFkFdAOFPGs"
         }
     ],
     "Lineage W": [
@@ -1180,95 +1030,14 @@
             "url": "https://www.youtube.com/watch?v=dxrs0UrHmqg"
         },
         {
-            "channel name": "깔만 ",
-            "video title": "[02.27] 리니지w 에바6섭 캡틴키드D 3전설 오웬 요정왔습니다~ 똘건x깔만 天堂W 伊娃6 LineageW ",
-            "url": "https://www.youtube.com/watch?v=nKC9VzN0ohE"
-        },
-        {
             "channel name": "안녕꼬막이 ",
             "video title": "[ 02/26 안꼬 LIVE ] 60렙 5귀걸이 핑크빛 마리모♥ 리니지w  天堂W リネージュW[#리니지w #조우6 #天堂W #宙斯6] ",
             "url": "https://www.youtube.com/watch?v=wVCqLF_R2SQ"
-        }
-    ],
-    "Arena of Valor": [
-        {
-            "channel name": "XiaoLin 小霖 ",
-            "video title": "【小霖XiaoLin】早安午安晚安 我喜歡早安 因為可以吃早餐    2/26 ",
-            "url": "https://www.youtube.com/watch?v=EXnlFjaBlJY"
         },
         {
-            "channel name": "HKA Abao ",
-            "video title": "【傳說對決】HKA Abao 阿寶 繼續修練 還不夠好 希望能笑到最後 ",
-            "url": "https://www.youtube.com/watch?v=gvZ22tEoknU"
-        },
-        {
-            "channel name": "海苔實況主 ",
-            "video title": "🔥海苔實況台❀傳說對決❀S場認真爬分不演 ",
-            "url": "https://www.youtube.com/watch?v=LPu1qYXTn3I"
-        },
-        {
-            "channel name": "Mickey米奇 ",
-            "video title": "今天９４要開心，忘掉煩惱｜傳說對決 ",
-            "url": "https://www.youtube.com/watch?v=mIbLzFnqTUY"
-        },
-        {
-            "channel name": "Dana Yulian ",
-            "video title": "LIVESTREAM AOV | cuma bisa slimz ",
-            "url": "https://www.youtube.com/watch?v=j18g1LrFFHY"
-        }
-    ],
-    "Pokémon Legends: Arceus": [
-        {
-            "channel name": "HDvee ",
-            "video title": "🔴 LIVE! Pokemon Legends Arceus Shiny Hunting! ",
-            "url": "https://www.youtube.com/watch?v=f0DAIu-J-Rw"
-        },
-        {
-            "channel name": "JudiMakeFun ",
-            "video title": "ENAMORUS - OSTATNI Z DŻINÓW | Pokemon Legends Arceus #19 ",
-            "url": "https://www.youtube.com/watch?v=xIDLQilfi4c"
-        },
-        {
-            "channel name": "やよげーまー ",
-            "video title": "【歪み190回越え】今日出します。歪み色違い厳選ヒノアラシ編 #14【レジェンズアルセウス】 ",
-            "url": "https://www.youtube.com/watch?v=GE6dC3Li3Gc"
-        },
-        {
-            "channel name": "湯毛の会 ",
-            "video title": "寝れないからアルセウスで運命力を試す ",
-            "url": "https://www.youtube.com/watch?v=FssbUnNpMuw"
-        },
-        {
-            "channel name": "Vicvillon ",
-            "video title": "GIVEAWAY! Shiny Hunting MASS OUTBREAKS - Pokemon Legends Arceus ",
-            "url": "https://www.youtube.com/watch?v=jln4FkimpLw"
-        }
-    ],
-    "DayZ": [
-        {
-            "channel name": "Vlados ",
-            "video title": "В поисках размена | 1.16 DayZ !сервер ",
-            "url": "https://www.youtube.com/watch?v=puBsIzUkviU"
-        },
-        {
-            "channel name": "Сергей Холостяков ",
-            "video title": "Время пришло [Raid time] - DayZ ",
-            "url": "https://www.youtube.com/watch?v=uqZtKLlAFcw"
-        },
-        {
-            "channel name": "ALEDVAN ",
-            "video title": "DayZ как выживать новичку? Стрим обзор и прохождение ДейЗ с нуля от ALEDVAN! ",
-            "url": "https://www.youtube.com/watch?v=pAiAwVQC29I"
-        },
-        {
-            "channel name": "Malik! ",
-            "video title": "💀ТЯЖЕЛЫЕ БУДНИ |  БРАТВА | История Шурупа №9|  DayZ Stalker RP 💀 ",
-            "url": "https://www.youtube.com/watch?v=fGV5Ye8_Kg4"
-        },
-        {
-            "channel name": "WIK_STALKER ",
-            "video title": "СТАЛКЕР - Жизнь Кордона  |  DAYZ STALKER RP ",
-            "url": "https://www.youtube.com/watch?v=4sW2Ulnt1HA"
+            "channel name": "깔만 ",
+            "video title": "[02.27] 리니지w 에바6섭 캡틴키드D 3전설 오웬 요정왔습니다~ 똘건x깔만 天堂W 伊娃6 LineageW ",
+            "url": "https://www.youtube.com/watch?v=nKC9VzN0ohE"
         }
     ],
     "Scary Teacher 3D": [
@@ -1278,19 +1047,19 @@
             "url": "https://www.youtube.com/watch?v=gmgMa_tPbVw"
         },
         {
+            "channel name": "Mimo Fusion ",
+            "video title": "Scary Teacher 3D vs HUGGY WUGGY🔴LIVE - TROLL Mr Grumpy \\u0026 Miss T - Funny Moments Android Game #133 ",
+            "url": "https://www.youtube.com/watch?v=VU2QIG3Whe4"
+        },
+        {
             "channel name": "TD HORROR GAMES ",
             "video title": "🔴LIVE🔴Scary Teacher 3D, Scary Robber 3D New Chapter - The Best Horror Game Play Walkthrough  #123 ",
             "url": "https://www.youtube.com/watch?v=VzebVBaFQx0"
         },
         {
-            "channel name": "Bit Gaming ",
-            "video title": "🔴LIVE Scary Teacher 3D | New Update Levels TROLL Mr Grumpy \\u0026 Miss T - TANI \\u0026 NICK  Best Horror Game ",
-            "url": "https://www.youtube.com/watch?v=e68BaSmEsHo"
-        },
-        {
             "channel name": "TD HORROR GAMES ",
-            "video title": "🔴LIVE🔴 SQUID GAME VS Scary Teacher 3D, Scary Robber 3D, Scary Stranger 3D, Poppy Playtime ##30 ",
-            "url": "https://www.youtube.com/watch?v=TzQZiQKTkK0"
+            "video title": "🔴LIVE Scary Teacher 3D | New Update Levels TROLL Mr Grumpy \\u0026 Miss T - TANI \\u0026 NICK  Mod apk 2022 #30 ",
+            "url": "https://www.youtube.com/watch?v=0keH9PiwNJ4"
         },
         {
             "channel name": "アモングアス ",
@@ -1298,5 +1067,141 @@
             "url": "https://www.youtube.com/watch?v=JnNuIhiRRHY"
         }
     ],
-    "last_update_time": "2022-02-26 23:42:49.828654"
+    "Grand Theft Auto: San Andreas": [
+        {
+            "channel name": "MYERS ",
+            "video title": "ЗАЙДИ на СТРИМ и ЗАБЕРИ 230.000р🔥СТРИМ🔞БЕЗ МАТА🔞РАДМИР РП КРМП GTA5 SAMP HASSLE🔞МАТ=1кк РАЗДАЮ ЧАТУ💰 ",
+            "url": "https://www.youtube.com/watch?v=5FpN8Pp9WPw"
+        },
+        {
+            "channel name": "MAURIZIO ",
+            "video title": "#нетвойне 🔥 ",
+            "url": "https://www.youtube.com/watch?v=xQbvVpSYj84"
+        },
+        {
+            "channel name": "New Balance ",
+            "video title": "ПРИНИМАЮ В ФУЛЛ ФАМУ НА ARIZONA RP ",
+            "url": "https://www.youtube.com/watch?v=fUv_aMlnijU"
+        },
+        {
+            "channel name": "Алиска ",
+            "video title": "SAMP/Arizona RP Paige/ОТКРЫТИЕ/О себе/Arizona RP Detroit/Arizona/Алиска/ARIZONA RP/HONEST RP/RAGE ",
+            "url": "https://www.youtube.com/watch?v=F1bSp3GCKMA"
+        },
+        {
+            "channel name": "SNAPI LIVE ",
+            "video title": "СТРИМ ПО BLACK RUSSIA - ПРОКАЧКА СЕМЬИ в блек раша крмп ",
+            "url": "https://www.youtube.com/watch?v=j3cAD5LBu4A"
+        }
+    ],
+    "Brawl Stars": [
+        {
+            "channel name": "Talking Tom Movie ",
+            "video title": "ОБЗОР ВЕСЕЛЫХ ИГР СРЕДИ НАС, КРАСНЫЙ ШАР 4, Злая Учительница, БРАВЛ СТАРС, Троль Квест - часть 543 ",
+            "url": "https://www.youtube.com/watch?v=AbssHgpU2hI"
+        },
+        {
+            "channel name": "Beast BS ",
+            "video title": "Смотрим Brawl Talk! Долгий Стрим! ",
+            "url": "https://www.youtube.com/watch?v=My8yJy_8FRc"
+        },
+        {
+            "channel name": "LoKsik Stream ",
+            "video title": "24 ЧАСА СТРИМ ПО БРАВЛ СТАРС (НЕ КЛИКБЕЙТ) | БРАВЛ СТАРС СТРИМ | ЛОКСИК СТРИМ ",
+            "url": "https://www.youtube.com/watch?v=Ol9Y4ZhahWo"
+        },
+        {
+            "channel name": "PlayGirl LenOk ",
+            "video title": "СТРИМ I Играем с вами в мини-игры в бравл старс / Brawl Stars ",
+            "url": "https://www.youtube.com/watch?v=hO8horRHHkI"
+        },
+        {
+            "channel name": "LiGhT ",
+            "video title": "Стрим По Бравл Старс | АПАЮ 50к (ПРЕДСЕЗОН) ",
+            "url": "https://www.youtube.com/watch?v=WeBzReIBcTk"
+        }
+    ],
+    "Dead by Daylight": [
+        {
+            "channel name": "Maria Play ",
+            "video title": "СУРКИ ИГРАЮТ (клипы) ► СТРИМ ДБД ► ",
+            "url": "https://www.youtube.com/watch?v=uzbwKGMqJk4"
+        },
+        {
+            "channel name": "Skarpeya ",
+            "video title": "СТРИМ ЗА ВЫЖИВШИХ (1 РАНГ 4000+ ЧАСОВ) ➤ DEAD BY DAYLIGHT СТРИМ ➤ ДБД СТРИМ ",
+            "url": "https://www.youtube.com/watch?v=vvRyRNJnGMk"
+        },
+        {
+            "channel name": "EvilGamingFun ",
+            "video title": "Война в Dead by Daylight. СТРИМ  ДБД трансляция прямой эфир сейчас! ",
+            "url": "https://www.youtube.com/watch?v=wI-VrDuLrFU"
+        },
+        {
+            "channel name": "D\\u0026BR games ",
+            "video title": "[РОЗЫГРЫШ DLC]  DBD - БАТТЛ УБИЙЦ 2022 (1/4 ФИНАЛА) ПРИЗРАК VS МОР (ГРУППА С) ",
+            "url": "https://www.youtube.com/watch?v=WqOGlHpggoA"
+        },
+        {
+            "channel name": "Lin Borre ",
+            "video title": "DEAD BY DAYLIGHT ▶ СУББОТНИЙ ЧИЛЛОВЫЙ СТРИМ ЗА СУРВОВ [STREAM] ",
+            "url": "https://www.youtube.com/watch?v=x-GnoUGBbK4"
+        }
+    ],
+    "Farming Simulator 22": [
+        {
+            "channel name": "Церберок ",
+            "video title": "Farming Simulator 22. Кооператив. ЧАСТЬ 17. Патч 1.3. Обновление. Смотрим что изменилось. ",
+            "url": "https://www.youtube.com/watch?v=VNiq12dqfk8"
+        },
+        {
+            "channel name": "Clondike ",
+            "video title": "FS22 Фарминг как никогда! ",
+            "url": "https://www.youtube.com/watch?v=x2n5dgjA2Lc"
+        },
+        {
+            "channel name": "Sim Farmer ",
+            "video title": "Harvesting \\u0026 Making silage Bales, Forestry \\u0026 More!!! - No Mans's Land FS22 LIVE Stream!! ",
+            "url": "https://www.youtube.com/watch?v=4aVE1lEIkFQ"
+        },
+        {
+            "channel name": "Farmer Cop ",
+            "video title": "NO KID HUNGRY - CHARITY FUNDRAISER - SILAGE CHALLENGE ",
+            "url": "https://www.youtube.com/watch?v=GB5URgLG5Ew"
+        },
+        {
+            "channel name": "Boroda►play ",
+            "video title": "Farming simulator 22. Переезд в сельскую местность. (Coop) №1 ",
+            "url": "https://www.youtube.com/watch?v=j1HS-Uxe-uo"
+        }
+    ],
+    "PlayerUnknown’s Battlegrounds": [
+        {
+            "channel name": "Joneek ",
+            "video title": "🙀Ночной PUBG | Наводим суету | Без мата и политики ❤️‍🔥 | Девушка играет | Вечернее общение❤️‍🔥 ",
+            "url": "https://www.youtube.com/watch?v=tbJijc29Yz0"
+        },
+        {
+            "channel name": "Morsy ",
+            "video title": "МЫ ИГРАЕМ ТУТ В ИГРУ 🔴 СТРИМ PUBG LIVE ",
+            "url": "https://www.youtube.com/watch?v=RSv0XUAORDM"
+        },
+        {
+            "channel name": "лэйрон ",
+            "video title": "СТРИМ ИЗ БУНКЕРА (нет) ",
+            "url": "https://www.youtube.com/watch?v=O2Ghl7BUJos"
+        },
+        {
+            "channel name": "LavenderBree ",
+            "video title": "🔥ПАБГ СТРИМ🔥PlayerUnknown's Battlegrounds🔥/ПУБГ БЕСПЛАТНО НА ПК /🔴140🔴 ",
+            "url": "https://www.youtube.com/watch?v=aYdPJd3VnvM"
+        },
+        {
+            "channel name": "SanchaBRO ",
+            "video title": "PUBG - Немножко пубжика ",
+            "url": "https://www.youtube.com/watch?v=iBpcziO_E4Y"
+        }
+    ],
+    "Gates Olympus Online Pragmatic": [],
+    "last_update_time": "2022-02-27 00:33:54.222563"
 }

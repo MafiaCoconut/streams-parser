@@ -109,6 +109,7 @@ class Application(QMainWindow):
         self.l_link_1 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.l_link_1.setObjectName("l_link_1")
         self.video1.addWidget(self.l_link_1)
+        self.l_link_1.setReadOnly(True)
         self.verticalLayout_4.addLayout(self.video1)
         self.video2 = QtWidgets.QHBoxLayout()
         self.video2.setObjectName("video2")
@@ -121,6 +122,7 @@ class Application(QMainWindow):
         self.l_link_2 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.l_link_2.setObjectName("l_link_2")
         self.video2.addWidget(self.l_link_2)
+        self.l_link_2.setReadOnly(True)
         self.verticalLayout_4.addLayout(self.video2)
         self.video3 = QtWidgets.QHBoxLayout()
         self.video3.setObjectName("video3")
@@ -133,6 +135,7 @@ class Application(QMainWindow):
         self.l_link_3 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.l_link_3.setObjectName("l_link_3")
         self.video3.addWidget(self.l_link_3)
+        self.l_link_3.setReadOnly(True)
         self.verticalLayout_4.addLayout(self.video3)
         self.video4 = QtWidgets.QHBoxLayout()
         self.video4.setObjectName("video4")
@@ -145,6 +148,7 @@ class Application(QMainWindow):
         self.l_link_4 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.l_link_4.setObjectName("l_link_4")
         self.video4.addWidget(self.l_link_4)
+        self.l_link_4.setReadOnly(True)
         self.verticalLayout_4.addLayout(self.video4)
         self.video5 = QtWidgets.QHBoxLayout()
         self.video5.setObjectName("video5")
@@ -157,6 +161,7 @@ class Application(QMainWindow):
         self.l_link_5 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
         self.l_link_5.setObjectName("l_link_5")
         self.video5.addWidget(self.l_link_5)
+        self.l_link_5.setReadOnly(True)
         self.verticalLayout_4.addLayout(self.video5)
         self.tabWidget.addTab(self.parser_page, "")
 
@@ -217,9 +222,9 @@ class Application(QMainWindow):
 
     def retranslateUi(self, Application):
         _translate = QtCore.QCoreApplication.translate
-        Application.setWindowTitle(_translate("Application", "Application"))
+        Application.setWindowTitle(_translate("Application", "LPAR"))
         self.l_name_prog.setText(
-            _translate("Application", "         Вас приветствует программа по сбору данных о прямых трансляциях"))
+            _translate("Application", '      Вас приветствует программа по сбору данных о прямых трансляциях " LPAR "'))
         self.b_database.setText(_translate("Application", "Работа с базой данных"))
         self.b_streams.setText(_translate("Application", "Получение информации о трасляциях"))
         self.b_games_name.setText(_translate("Application", "Получение списка названий всех игр"))
@@ -229,16 +234,22 @@ class Application(QMainWindow):
         self.label_6.setText(_translate("Application", "Последнее обновление базы данных было:"))
         self.l_time.setText(_translate("Application", "время"))
         self.b_exit_4.setText(_translate("Application", "Назад"))
-        self.b_update_database.setText(_translate("Application", "Обновить базу данных\nВнимание!!! Это займёт некоторое время, не отключайте программу"))
+        self.b_update_database.setText(_translate("Application", "Обновить базу данных\nВнимание!!! Это займёт "
+                                                                 "некоторое время, не отключайте программу"))
         self.l_per_of_comletion.setText(_translate("Application", ""))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.database_page), _translate("Application", "Database"))
         self.b_games_names.setText(_translate("Application", "Просмотр всех названий игр"))
         self.text_name_of_game.setHtml(_translate("Application",
-                                                  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-                                                  "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+                                                  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+                                                  "\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n "
+                                                  "<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+                                                  "type=\"text/css\">\n "
                                                   "p, li { white-space: pre-wrap; }\n"
-                                                  "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-                                                  "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+                                                  "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; "
+                                                  "font-size:14pt; font-weight:400; font-style:normal;\">\n "
+                                                  "<p style=\"-qt-paragraph-type:empty; margin-top:0px; "
+                                                  "margin-bottom:0px; margin-left:0px; margin-right:0px; "
+                                                  "-qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
         self.b_exit_3.setText(_translate("Application", "Назад"))
         self.b_search.setText(_translate("Application", "Поиск"))
         self.l_author_1.setText(_translate("Application", "Автор"))
@@ -258,25 +269,34 @@ class Application(QMainWindow):
         self.l_link_5.setText(_translate("Application", "Ссылка"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.parser_page), _translate("Application", "Parser"))
         self.textBrowser.setHtml(_translate("Application",
-                                            "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-                                            "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+                                            "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+                                            "\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n "
+                                            "<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+                                            "type=\"text/css\">\n "
                                             "p, li { white-space: pre-wrap; }\n"
-                                            "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-                                            "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+                                            "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; "
+                                            "font-size:8.25pt; font-weight:400; font-style:normal;\">\n "
+                                            "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+                                            "margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+                                            "text-indent:0px;\"><br /></p></body></html>"))
         self.b_exit_8.setText(_translate("Application", "Назад"))
         self.b_to_parser.setText(_translate("Application", "Вернуться к парсеру"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.games_name_page),
                                   _translate("Application", "GamesName"))
         self.label_2.setText(_translate("Application",
-                                        "   Перед началом работы, рекомендуется обновить базу данных в пункте №1 на стартовом экране."))
+                                        "Перед началом работы, рекомендуется обновить базу данных в пункте №1 на "
+                                        "стартовом экране."))
         self.label_3.setText(_translate("Application",
-                                        "   Далее рекомендуется, в ситуации когда вы не помните полное название игры, запросить список названий игр."))
+                                        "Далее рекомендуется, в ситуации когда вы не помните полное название игры, "
+                                        "запросить список названий игр."))
         self.label_4.setText(_translate("Application",
-                                        "    Если программы пишет что игры нет в списке, то возможно стримы по игре сейчас находятся не в топ 50 самых популярных играх."))
+                                        "Если программы пишет что игры нет в списке, то возможно стримы по игре "
+                                        "сейчас находятся не в топ 50 самых популярных играх."))
         self.label_5.setText(_translate("Application", "   Приятного использования программы!!!"))
         self.b_exit_9.setText(_translate("Application", "Назад"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.recomendation_page),
                                   _translate("Application", "Recomendation"))
+        self.textBrowser.setText(_translate("Application", youtube.games_name_get_in_str()))
 
     def exit(self):
         sys.exit()
@@ -312,7 +332,7 @@ class Application(QMainWindow):
         last_update = information.database_time['youtube'][:-4]
         self.l_time.setText(last_update)
 
-    #
+    # Поиск спарсенных стримов
     def parser_search(self):
         data_youtube = youtube.data_get()
         name = self.text_name_of_game.toPlainText()
@@ -328,19 +348,19 @@ class Application(QMainWindow):
                 lst[i][0].setText(f'{data_youtube[name][i]["channel name"]}')
                 lst[i][1].setText(f'{data_youtube[name][i]["video title"]}')
                 lst[i][2].setText(f'{data_youtube[name][i]["url"]}')
-        elif name not in data_youtube and youtube.check_name_is_in_games_name(name) == False:
+        elif name not in data_youtube and youtube.check_name_is_in_games_name(name) and name != '':
             error = QMessageBox()
             error.setWindowTitle('Предупреждение!!!')
-            error.setText('Вы ввели неправильное название игры, попробуйте ещё раз или '
-                          'нажмите "Просмотр всех названий игр".')
+            error.setText('Такая игра действительно существует, но, к сожалению, на данный момент в топ 50 по миру по '
+                          'ней нет ни одного стрима. Попробуйте другую игру.')
             error.setIcon(QMessageBox.Warning)
             error.exec_()
 
         else:
             error = QMessageBox()
             error.setWindowTitle('Предупреждение!!!')
-            error.setText('Такая игра действительно существует, но, к сожалению, на данный момент в топ 50 по миру по '
-                          'ней нет ни одного стрима. Попробуйте другую игру.')
+            error.setText('Вы ввели неправильное название игры, попробуйте ещё раз или '
+                          'нажмите "Просмотр всех названий игр".')
             error.setIcon(QMessageBox.Warning)
             error.exec_()
 
@@ -367,7 +387,7 @@ class Application(QMainWindow):
 def main():
     app = QApplication(sys.argv)
     menu = Application()
-
+    # menu.update_lst_games_name()
     menu.show()
     sys.exit(app.exec_())
 
