@@ -9,13 +9,13 @@
 
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from  PyQt5.QtWidgets import QMainWindow, QApplication
+from PyQt5.QtWidgets import QMainWindow, QApplication
 
 
-class Main_menu(QMainWindow):
+class ParserWindow(QMainWindow):
     def __init__(self):
-        super(Main_menu, self).__init__()
-        self.setObjectName("MainWindow")
+        super(ParserWindow, self).__init__()
+        self.setObjectName("ParserWindow")
         self.resize(802, 600)
         self.centralwidget = QtWidgets.QWidget(self)
         self.centralwidget.setObjectName("centralwidget")
@@ -112,38 +112,42 @@ class Main_menu(QMainWindow):
         self.retranslateUi(self)
         QtCore.QMetaObject.connectSlotsByName(self)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, ParserWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.text_name_of_game.setHtml(_translate("MainWindow",
+        ParserWindow.setWindowTitle(_translate("ParserWindow", "ParserWindow"))
+        self.text_name_of_game.setHtml(_translate("ParserWindow",
                                                   "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
                                                   "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
                                                   "p, li { white-space: pre-wrap; }\n"
                                                   "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
                                                   "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.l_author_1.setText(_translate("MainWindow", "Автор"))
-        self.l_video_title_1.setText(_translate("MainWindow", "Название видео"))
-        self.l_link_1.setText(_translate("MainWindow", "Ссылка"))
-        self.l_author_2.setText(_translate("MainWindow", "Автор"))
-        self.l_video_title_2.setText(_translate("MainWindow", "Название видео"))
-        self.l_link_2.setText(_translate("MainWindow", "Ссылка"))
-        self.l_author_3.setText(_translate("MainWindow", "Автор"))
-        self.l_video_title_3.setText(_translate("MainWindow", "Название видео"))
-        self.l_link_3.setText(_translate("MainWindow", "Ссылка"))
-        self.l_author_4.setText(_translate("MainWindow", "Автор"))
-        self.l_video_title_4.setText(_translate("MainWindow", "Название видео"))
-        self.l_link_4.setText(_translate("MainWindow", "Ссылка"))
-        self.l_author_5.setText(_translate("MainWindow", "Автор"))
-        self.label_video_title_5.setText(_translate("MainWindow", "Название видео"))
-        self.l_link_5.setText(_translate("MainWindow", "Ссылка"))
-        self.b_exit.setText(_translate("MainWindow", "Назад"))
-        self.b_games_names.setText(_translate("MainWindow", "Просмотр всех названий игр"))
-        self.pushButton.setText(_translate("MainWindow", "Поиск"))
+        self.l_author_1.setText(_translate("ParserWindow", "Автор"))
+        self.l_video_title_1.setText(_translate("ParserWindow", "Название видео"))
+        self.l_link_1.setText(_translate("ParserWindow", "Ссылка"))
+        self.l_author_2.setText(_translate("ParserWindow", "Автор"))
+        self.l_video_title_2.setText(_translate("ParserWindow", "Название видео"))
+        self.l_link_2.setText(_translate("ParserWindow", "Ссылка"))
+        self.l_author_3.setText(_translate("ParserWindow", "Автор"))
+        self.l_video_title_3.setText(_translate("ParserWindow", "Название видео"))
+        self.l_link_3.setText(_translate("ParserWindow", "Ссылка"))
+        self.l_author_4.setText(_translate("ParserWindow", "Автор"))
+        self.l_video_title_4.setText(_translate("ParserWindow", "Название видео"))
+        self.l_link_4.setText(_translate("ParserWindow", "Ссылка"))
+        self.l_author_5.setText(_translate("ParserWindow", "Автор"))
+        self.label_video_title_5.setText(_translate("ParserWindow", "Название видео"))
+        self.l_link_5.setText(_translate("ParserWindow", "Ссылка"))
+        self.b_exit.setText(_translate("ParserWindow", "Назад"))
+        self.b_games_names.setText(_translate("ParserWindow", "Просмотр всех названий игр"))
+        self.pushButton.setText(_translate("ParserWindow", "Поиск"))
 
 
 def main():
     app = QApplication(sys.argv)
-    main_menu = Main_menu()
-
+    main_menu = ParserWindow()
+    print('!!!')
     main_menu.show()
+    print('!!!!!')
     sys.exit(app.exec_())
+    print('!!!!!!!!!')
+
+# main()

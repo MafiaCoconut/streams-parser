@@ -1,7 +1,8 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from  PyQt5.QtWidgets import QMainWindow, QApplication
-
+from PyQt5.QtWidgets import QMainWindow, QApplication
+# from menu.parser_page import ParserWindow
+from menu import parser_page
 
 class Main_menu(QMainWindow):
     def __init__(self):
@@ -68,7 +69,11 @@ class Main_menu(QMainWindow):
         print('1')
 
     def b_streams_clicked(self):
-        print('2')
+        self.setVisible(False)
+        print('!!')
+        parser_page.main()
+        # parser = ParserWindow()
+        # parser.show()
 
     def b_games_clicked(self):
         print('3')
