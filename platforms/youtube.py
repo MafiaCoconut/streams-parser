@@ -113,13 +113,10 @@ def update_data():
             title = mic_data[z][0]
             url = mic_data[z][2]
             data[name].append({'channel name': ch_name, 'video title': title, 'url': url})
+        now = datetime.datetime.now()
+        data['last_update_time'] = str(now)
         with open(information.youtube, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
-
-    # Обновление информации изменения последнего обновления БД
-    now = datetime.datetime.now()
-    information.database_time['youtube'] = str(now)
-
 
 
 def streams(name):
@@ -133,6 +130,16 @@ def streams(name):
         print(f'   Ссылка на  трансляцию: {data_youtube[name][i]["url"]}')
         print()
     main1.working_with_streams()
+
+
+# Обновление информации изменения последнего обновления БД
+def update_last_time():
+    now = datetime.datetime.now()
+    # with open('../help_files/information.py', 'a') as file:
+    print(information.database_time['youtube'])
+    information.database_time['youtube'] = str(now)
+    print(information.database_time['youtube'])
+
 
 if __name__ == '__main__':
     update_data()

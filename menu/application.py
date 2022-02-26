@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 # from menu import parser_page
 import platforms.youtube as youtube
 import help_files.information as information
+from time import sleep
 
 
 class Application(QMainWindow):
@@ -15,7 +16,7 @@ class Application(QMainWindow):
         self.centralwidget = QtWidgets.QWidget(self)
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
-        self.tabWidget.setGeometry(QtCore.QRect(0, -20, 871, 621))
+        self.tabWidget.setGeometry(QtCore.QRect(0, -22, 871, 621))
         self.tabWidget.setObjectName("tabWidget")
         self.tabWidget.setCurrentIndex(0)
 
@@ -97,66 +98,66 @@ class Application(QMainWindow):
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
-        self.video1_2 = QtWidgets.QHBoxLayout()
-        self.video1_2.setObjectName("video1_2")
-        self.l_author_6 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_author_6.setObjectName("l_author_6")
-        self.video1_2.addWidget(self.l_author_6)
+        self.video1 = QtWidgets.QHBoxLayout()
+        self.video1.setObjectName("video1")
+        self.l_author_1 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_author_1.setObjectName("l_author_1")
+        self.video1.addWidget(self.l_author_1)
+        self.l_video_title_1 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_video_title_1.setObjectName("l_video_title_1")
+        self.video1.addWidget(self.l_video_title_1)
+        self.l_link_1 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.l_link_1.setObjectName("l_link_1")
+        self.video1.addWidget(self.l_link_1)
+        self.verticalLayout_4.addLayout(self.video1)
+        self.video2 = QtWidgets.QHBoxLayout()
+        self.video2.setObjectName("video2")
+        self.l_author_2 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_author_2.setObjectName("l_author_2")
+        self.video2.addWidget(self.l_author_2)
+        self.l_video_title_2 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_video_title_2.setObjectName("l_video_title_2")
+        self.video2.addWidget(self.l_video_title_2)
+        self.l_link_2 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.l_link_2.setObjectName("l_link_2")
+        self.video2.addWidget(self.l_link_2)
+        self.verticalLayout_4.addLayout(self.video2)
+        self.video3 = QtWidgets.QHBoxLayout()
+        self.video3.setObjectName("video3")
+        self.l_author_3 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_author_3.setObjectName("l_author_3")
+        self.video3.addWidget(self.l_author_3)
+        self.l_video_title_3 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_video_title_3.setObjectName("l_video_title_3")
+        self.video3.addWidget(self.l_video_title_3)
+        self.l_link_3 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.l_link_3.setObjectName("l_link_3")
+        self.video3.addWidget(self.l_link_3)
+        self.verticalLayout_4.addLayout(self.video3)
+        self.video4 = QtWidgets.QHBoxLayout()
+        self.video4.setObjectName("video4")
+        self.l_author_4 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_author_4.setObjectName("l_author_4")
+        self.video4.addWidget(self.l_author_4)
+        self.l_video_title_4 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_video_title_4.setObjectName("l_video_title_4")
+        self.video4.addWidget(self.l_video_title_4)
+        self.l_link_4 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.l_link_4.setObjectName("l_link_4")
+        self.video4.addWidget(self.l_link_4)
+        self.verticalLayout_4.addLayout(self.video4)
+        self.video5 = QtWidgets.QHBoxLayout()
+        self.video5.setObjectName("video5")
+        self.l_author_5 = QtWidgets.QLabel(self.verticalLayoutWidget)
+        self.l_author_5.setObjectName("l_author_5")
+        self.video5.addWidget(self.l_author_5)
         self.l_video_title_5 = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.l_video_title_5.setObjectName("l_video_title_5")
-        self.video1_2.addWidget(self.l_video_title_5)
-        self.l_link_6 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_link_6.setObjectName("l_link_6")
-        self.video1_2.addWidget(self.l_link_6)
-        self.verticalLayout_4.addLayout(self.video1_2)
-        self.video2_2 = QtWidgets.QHBoxLayout()
-        self.video2_2.setObjectName("video2_2")
-        self.l_author_7 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_author_7.setObjectName("l_author_7")
-        self.video2_2.addWidget(self.l_author_7)
-        self.l_video_title_6 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_video_title_6.setObjectName("l_video_title_6")
-        self.video2_2.addWidget(self.l_video_title_6)
-        self.l_link_7 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_link_7.setObjectName("l_link_7")
-        self.video2_2.addWidget(self.l_link_7)
-        self.verticalLayout_4.addLayout(self.video2_2)
-        self.video3_2 = QtWidgets.QHBoxLayout()
-        self.video3_2.setObjectName("video3_2")
-        self.l_author_8 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_author_8.setObjectName("l_author_8")
-        self.video3_2.addWidget(self.l_author_8)
-        self.l_video_title_7 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_video_title_7.setObjectName("l_video_title_7")
-        self.video3_2.addWidget(self.l_video_title_7)
-        self.l_link_8 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_link_8.setObjectName("l_link_8")
-        self.video3_2.addWidget(self.l_link_8)
-        self.verticalLayout_4.addLayout(self.video3_2)
-        self.video4_2 = QtWidgets.QHBoxLayout()
-        self.video4_2.setObjectName("video4_2")
-        self.l_author_9 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_author_9.setObjectName("l_author_9")
-        self.video4_2.addWidget(self.l_author_9)
-        self.l_video_title_8 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_video_title_8.setObjectName("l_video_title_8")
-        self.video4_2.addWidget(self.l_video_title_8)
-        self.l_link_9 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_link_9.setObjectName("l_link_9")
-        self.video4_2.addWidget(self.l_link_9)
-        self.verticalLayout_4.addLayout(self.video4_2)
-        self.video5_2 = QtWidgets.QHBoxLayout()
-        self.video5_2.setObjectName("video5_2")
-        self.l_author_10 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_author_10.setObjectName("l_author_10")
-        self.video5_2.addWidget(self.l_author_10)
-        self.label_video_title_6 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.label_video_title_6.setObjectName("label_video_title_6")
-        self.video5_2.addWidget(self.label_video_title_6)
-        self.l_link_10 = QtWidgets.QLabel(self.verticalLayoutWidget)
-        self.l_link_10.setObjectName("l_link_10")
-        self.video5_2.addWidget(self.l_link_10)
-        self.verticalLayout_4.addLayout(self.video5_2)
+        self.video5.addWidget(self.l_video_title_5)
+        self.l_link_5 = QtWidgets.QLineEdit(self.verticalLayoutWidget)
+        self.l_link_5.setObjectName("l_link_5")
+        self.video5.addWidget(self.l_link_5)
+        self.verticalLayout_4.addLayout(self.video5)
         self.tabWidget.addTab(self.parser_page, "")
 
         # Страница с названиями игр
@@ -214,6 +215,72 @@ class Application(QMainWindow):
         self.checkout_to_menu()
         # self.parser_page.show()
 
+    def retranslateUi(self, Application):
+        _translate = QtCore.QCoreApplication.translate
+        Application.setWindowTitle(_translate("Application", "Application"))
+        self.l_name_prog.setText(
+            _translate("Application", "         Вас приветствует программа по сбору данных о прямых трансляциях"))
+        self.b_database.setText(_translate("Application", "Работа с базой данных"))
+        self.b_streams.setText(_translate("Application", "Получение информации о трасляциях"))
+        self.b_games_name.setText(_translate("Application", "Получение списка названий всех игр"))
+        self.b_recmendation.setText(_translate("Application", "Рекомендации"))
+        self.b_exit.setText(_translate("Application", "Выход"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.main_page), _translate("Application", "Menu"))
+        self.label_6.setText(_translate("Application", "Последнее обновление базы данных было:"))
+        self.l_time.setText(_translate("Application", "время"))
+        self.b_exit_4.setText(_translate("Application", "Назад"))
+        self.b_update_database.setText(_translate("Application", "Обновить базу данных\nВнимание!!! Это займёт некоторое время, не отключайте программу"))
+        self.l_per_of_comletion.setText(_translate("Application", ""))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.database_page), _translate("Application", "Database"))
+        self.b_games_names.setText(_translate("Application", "Просмотр всех названий игр"))
+        self.text_name_of_game.setHtml(_translate("Application",
+                                                  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+                                                  "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+                                                  "p, li { white-space: pre-wrap; }\n"
+                                                  "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
+                                                  "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+        self.b_exit_3.setText(_translate("Application", "Назад"))
+        self.b_search.setText(_translate("Application", "Поиск"))
+        self.l_author_1.setText(_translate("Application", "Автор"))
+        self.l_video_title_1.setText(_translate("Application", "Название видео"))
+        self.l_link_1.setText(_translate("Application", "Ссылка"))
+        self.l_author_2.setText(_translate("Application", "Автор"))
+        self.l_video_title_2.setText(_translate("Application", "Название видео"))
+        self.l_link_2.setText(_translate("Application", "Ссылка"))
+        self.l_author_3.setText(_translate("Application", "Автор"))
+        self.l_video_title_3.setText(_translate("Application", "Название видео"))
+        self.l_link_3.setText(_translate("Application", "Ссылка"))
+        self.l_author_4.setText(_translate("Application", "Автор"))
+        self.l_video_title_4.setText(_translate("Application", "Название видео"))
+        self.l_link_4.setText(_translate("Application", "Ссылка"))
+        self.l_author_5.setText(_translate("Application", "Автор"))
+        self.l_video_title_5.setText(_translate("Application", "Название видео"))
+        self.l_link_5.setText(_translate("Application", "Ссылка"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.parser_page), _translate("Application", "Parser"))
+        self.textBrowser.setHtml(_translate("Application",
+                                            "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+                                            "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+                                            "p, li { white-space: pre-wrap; }\n"
+                                            "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
+                                            "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+        self.b_exit_8.setText(_translate("Application", "Назад"))
+        self.b_to_parser.setText(_translate("Application", "Вернуться к парсеру"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.games_name_page),
+                                  _translate("Application", "GamesName"))
+        self.label_2.setText(_translate("Application",
+                                        "   Перед началом работы, рекомендуется обновить базу данных в пункте №1 на стартовом экране."))
+        self.label_3.setText(_translate("Application",
+                                        "   Далее рекомендуется, в ситуации когда вы не помните полное название игры, запросить список названий игр."))
+        self.label_4.setText(_translate("Application",
+                                        "    Если программы пишет что игры нет в списке, то возможно стримы по игре сейчас находятся не в топ 50 самых популярных играх."))
+        self.label_5.setText(_translate("Application", "   Приятного использования программы!!!"))
+        self.b_exit_9.setText(_translate("Application", "Назад"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.recomendation_page),
+                                  _translate("Application", "Recomendation"))
+
+    def exit(self):
+        sys.exit()
+
     def connect_buttoms(self):
         # Кнопки отвечающие за переход между окнами
         self.b_exit.clicked.connect(self.exit)
@@ -228,82 +295,46 @@ class Application(QMainWindow):
         self.b_to_parser.clicked.connect(self.checkout_to_parser)
         self.b_games_names.clicked.connect(self.checkout_to_games_name)
 
-        # Меню с базой данных
+        # Страница с базой данных
         self.b_update_database.clicked.connect(self.update_database)
 
+        # Страница с парсером
+        self.b_search.clicked.connect(self.parser_search)
+
+    # Функции для базы данных
     def update_database(self):
         youtube.update_data()
-        self.l_per_of_comletion.setText('Готова, База данных была обновлена!')
+        self.l_per_of_comletion.setText('Готова, база данных была обновлена!')
         self.update_last_time_update_database()
 
     def update_last_time_update_database(self):
         last_update = information.database_time['youtube'][:-4]
         self.l_time.setText(last_update)
 
-    def retranslateUi(self, Application):
-        _translate = QtCore.QCoreApplication.translate
-        Application.setWindowTitle(_translate("Application", "Application"))
-        self.l_name_prog.setText(_translate("Application", "         Вас приветствует программа по сбору данных о прямых трансляциях"))
-        self.b_database.setText(_translate("Application", "Работа с базой данных"))
-        self.b_streams.setText(_translate("Application", "Получение информации о трасляциях"))
-        self.b_games_name.setText(_translate("Application", "Получение списка названий всех игр"))
-        self.b_recmendation.setText(_translate("Application", "Рекомендации"))
-        self.b_exit.setText(_translate("Application", "Выход"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.main_page), _translate("Application", "Menu"))
-        self.label_6.setText(_translate("Application", "Последнее обновление базы данных было:"))
-        self.l_time.setText(_translate("Application", "время"))
-        self.b_exit_4.setText(_translate("Application", "Назад"))
-        self.b_update_database.setText(_translate("Application", "Обновить базу данных"))
-        self.l_per_of_comletion.setText(_translate("Application", "          0"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.database_page), _translate("Application", "Database"))
-        self.b_games_names.setText(_translate("Application", "Просмотр всех названий игр"))
-        self.text_name_of_game.setHtml(_translate("Application", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.b_exit_3.setText(_translate("Application", "Назад"))
-        self.b_search.setText(_translate("Application", "Поиск"))
-        self.l_author_6.setText(_translate("Application", "Автор"))
-        self.l_video_title_5.setText(_translate("Application", "Название видео"))
-        self.l_link_6.setText(_translate("Application", "Ссылка"))
-        self.l_author_7.setText(_translate("Application", "Автор"))
-        self.l_video_title_6.setText(_translate("Application", "Название видео"))
-        self.l_link_7.setText(_translate("Application", "Ссылка"))
-        self.l_author_8.setText(_translate("Application", "Автор"))
-        self.l_video_title_7.setText(_translate("Application", "Название видео"))
-        self.l_link_8.setText(_translate("Application", "Ссылка"))
-        self.l_author_9.setText(_translate("Application", "Автор"))
-        self.l_video_title_8.setText(_translate("Application", "Название видео"))
-        self.l_link_9.setText(_translate("Application", "Ссылка"))
-        self.l_author_10.setText(_translate("Application", "Автор"))
-        self.label_video_title_6.setText(_translate("Application", "Название видео"))
-        self.l_link_10.setText(_translate("Application", "Ссылка"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.parser_page), _translate("Application", "Parser"))
-        self.textBrowser.setHtml(_translate("Application", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.b_exit_8.setText(_translate("Application", "Назад"))
-        self.b_to_parser.setText(_translate("Application", "Вернуться к парсеру"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.games_name_page), _translate("Application", "GamesName"))
-        self.label_2.setText(_translate("Application", "   Перед началом работы, рекомендуется обновить базу данных в пункте №1 на стартовом экране."))
-        self.label_3.setText(_translate("Application", "   Далее рекомендуется, в ситуации когда вы не помните полное название игры, запросить список названий игр."))
-        self.label_4.setText(_translate("Application", "    Если программы пишет что игры нет в списке, то возможно стримы по игре сейчас находятся не в топ 50 самых популярных играх."))
-        self.label_5.setText(_translate("Application", "   Приятного использования программы!!!"))
-        self.b_exit_9.setText(_translate("Application", "Назад"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.recomendation_page), _translate("Application", "Recomendation"))
+    #
+    def parser_search(self):
+        name = self.text_name_of_game.toPlainText()
+        data_youtube = youtube.data_get()
+        lst = [
+            [self.l_author_1, self.l_video_title_1, self.l_link_1],
+            [self.l_author_2, self.l_video_title_2, self.l_link_2],
+            [self.l_author_3, self.l_video_title_3, self.l_link_3],
+            [self.l_author_4, self.l_video_title_4, self.l_link_4],
+            [self.l_author_5, self.l_video_title_5, self.l_link_5]
+        ]
+        for i in range(len(lst)):
+            lst[i][0].setText(f'{data_youtube[name][i]["channel name"]}')
+            lst[i][1].setText(f'{data_youtube[name][i]["video title"]}')
+            lst[i][2].setText(f'{data_youtube[name][i]["url"]}')
 
-    def exit(self):
-        sys.exit()
-
+    # Функции для перехода между окнами
     def checkout_to_menu(self):
         self.tabWidget.setCurrentIndex(0)
 
     def checkout_to_database(self):
         self.tabWidget.setCurrentIndex(1)
         # self.l_time.setText('Ready')
+        self.l_per_of_comletion.setText('')
         self.update_last_time_update_database()
 
     def checkout_to_parser(self):
