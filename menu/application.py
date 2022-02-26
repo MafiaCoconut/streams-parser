@@ -6,6 +6,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 import platforms.youtube as youtube
 import help_files.information as information
 
+
 class Application(QMainWindow):
     def __init__(self):
         super(Application, self).__init__()
@@ -68,7 +69,7 @@ class Application(QMainWindow):
         self.b_update_database.setGeometry(QtCore.QRect(230, 210, 361, 61))
         self.b_update_database.setObjectName("b_uodate_database")
         self.l_per_of_comletion = QtWidgets.QLabel(self.database_page)
-        self.l_per_of_comletion.setGeometry(QtCore.QRect(400, 280, 21, 31))
+        self.l_per_of_comletion.setGeometry(QtCore.QRect(300, 280, 250, 31))
         self.l_per_of_comletion.setObjectName("l_per_of_comletion")
         self.tabWidget.addTab(self.database_page, "")
 
@@ -231,7 +232,13 @@ class Application(QMainWindow):
         self.b_update_database.clicked.connect(self.update_database)
 
     def update_database(self):
-        self.l_per_of_comletion.setText('Ready')
+        youtube.update_data()
+        self.l_per_of_comletion.setText('Готова, База данных была обновлена!')
+        self.update_last_time_update_database()
+
+    def update_last_time_update_database(self):
+        last_update = information.database_time['youtube'][:-4]
+        self.l_time.setText(last_update)
 
     def retranslateUi(self, Application):
         _translate = QtCore.QCoreApplication.translate
@@ -289,8 +296,6 @@ class Application(QMainWindow):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.recomendation_page), _translate("Application", "Recomendation"))
 
     def exit(self):
-        # app = QApplication(sys.argv)
-        # sys.exit(app.exec_())
         sys.exit()
 
     def checkout_to_menu(self):
@@ -299,9 +304,7 @@ class Application(QMainWindow):
     def checkout_to_database(self):
         self.tabWidget.setCurrentIndex(1)
         # self.l_time.setText('Ready')
-        last_update = information.database_time['youtube'][:-4]
-
-        self.l_time.setText(last_update)
+        self.update_last_time_update_database()
 
     def checkout_to_parser(self):
         self.tabWidget.setCurrentIndex(2)
@@ -320,5 +323,6 @@ def main():
     menu.show()
     sys.exit(app.exec_())
 
-main()
+if __name__ == '__main__':
+    main()
 

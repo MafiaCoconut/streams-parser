@@ -4,6 +4,7 @@ import datetime
 from bs4 import BeautifulSoup
 import help_files.information as information
 import main1
+from menu.application import Application as app
 
 
 def data_get():
@@ -62,6 +63,7 @@ def update_data():
         name = urls[game][1]
         if game % 10 == 0:
             print(f'Загружено: {game * 2}%')
+            # app.update_percent(str({game * 2}))
 
         req1 = requests.get(urls[game][0])
         lst1 = req1.text.split('"')
@@ -119,6 +121,7 @@ def update_data():
     information.database_time['youtube'] = str(now)
 
 
+
 def streams(name):
     data_youtube = data_get()
     print("Трансляции YouTube:")
@@ -130,3 +133,6 @@ def streams(name):
         print(f'   Ссылка на  трансляцию: {data_youtube[name][i]["url"]}')
         print()
     main1.working_with_streams()
+
+if __name__ == '__main__':
+    update_data()
