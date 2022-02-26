@@ -2,8 +2,9 @@ import requests
 import json
 import datetime
 from bs4 import BeautifulSoup
-import information
-import main
+import help_files.information as information
+import main1
+from menu.application import Application as app
 
 
 def data_get():
@@ -23,6 +24,35 @@ def games_name_set(name):
         word = name + ';'
         file.write(word)
 
+
+def games_name_get_in_str():
+    data = games_name_get()[1:]
+    data.sort()
+    data = data[1:]
+    data2 = ''
+    data1 = ''
+    x = 0
+    l = 0
+    for i in data:
+        if r"\u" in i:
+            continue
+        x += 1
+        if len(data1) + len(i) > 130:
+            data2 += data1 + '\n'
+            data1 = ''
+
+        data1 += i + ' ' * 7
+
+    if data1 not in data2:
+        data2 += data1
+    return data2
+
+def check_name_is_in_games_name(name):
+    games_name = games_name_get()
+    # print(games_name)
+    if name in games_name:
+        return True
+    return False
 
 def get_data():
     page = requests.get(information.url, headers=information.headers)
@@ -62,6 +92,7 @@ def update_data():
         name = urls[game][1]
         if game % 10 == 0:
             print(f'Загружено: {game * 2}%')
+            # app.update_percent(str({game * 2}))
 
         req1 = requests.get(urls[game][0])
         lst1 = req1.text.split('"')
@@ -111,12 +142,10 @@ def update_data():
             title = mic_data[z][0]
             url = mic_data[z][2]
             data[name].append({'channel name': ch_name, 'video title': title, 'url': url})
+        now = datetime.datetime.now()
+        data['last_update_time'] = str(now)
         with open(information.youtube, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
-
-    # Обновление информации изменения последнего обновления БД
-    now = datetime.datetime.now()
-    information.database_time['youtube'] = str(now)
 
 
 def streams(name):
@@ -129,4 +158,18 @@ def streams(name):
         print(f'   Автор: {data_youtube[name][i]["channel name"]}')
         print(f'   Ссылка на  трансляцию: {data_youtube[name][i]["url"]}')
         print()
-    main.working_with_streams()
+    main1.working_with_streams()
+
+
+# Обновление информации изменения последнего обновления БД
+def update_last_time():
+    now = datetime.datetime.now()
+    # with open('../help_files/information.py', 'a') as file:
+    print(information.database_time['youtube'])
+    information.database_time['youtube'] = str(now)
+    print(information.database_time['youtube'])
+
+
+if __name__ == '__main__':
+    # update_data()
+    check_name_is_in_games_name('Among Us')
