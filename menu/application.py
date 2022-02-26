@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QMainWindow, QApplication
+from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
 # from menu.parser_page import ParserWindow
 # from menu import parser_page
 import platforms.youtube as youtube
@@ -308,24 +308,41 @@ class Application(QMainWindow):
         self.update_last_time_update_database()
 
     def update_last_time_update_database(self):
+        information.update_last_time()
         last_update = information.database_time['youtube'][:-4]
         self.l_time.setText(last_update)
 
     #
     def parser_search(self):
-        name = self.text_name_of_game.toPlainText()
         data_youtube = youtube.data_get()
-        lst = [
-            [self.l_author_1, self.l_video_title_1, self.l_link_1],
-            [self.l_author_2, self.l_video_title_2, self.l_link_2],
-            [self.l_author_3, self.l_video_title_3, self.l_link_3],
-            [self.l_author_4, self.l_video_title_4, self.l_link_4],
-            [self.l_author_5, self.l_video_title_5, self.l_link_5]
-        ]
-        for i in range(len(lst)):
-            lst[i][0].setText(f'{data_youtube[name][i]["channel name"]}')
-            lst[i][1].setText(f'{data_youtube[name][i]["video title"]}')
-            lst[i][2].setText(f'{data_youtube[name][i]["url"]}')
+        name = self.text_name_of_game.toPlainText()
+        if name in data_youtube:
+            lst = [
+                [self.l_author_1, self.l_video_title_1, self.l_link_1],
+                [self.l_author_2, self.l_video_title_2, self.l_link_2],
+                [self.l_author_3, self.l_video_title_3, self.l_link_3],
+                [self.l_author_4, self.l_video_title_4, self.l_link_4],
+                [self.l_author_5, self.l_video_title_5, self.l_link_5]
+            ]
+            for i in range(len(lst)):
+                lst[i][0].setText(f'{data_youtube[name][i]["channel name"]}')
+                lst[i][1].setText(f'{data_youtube[name][i]["video title"]}')
+                lst[i][2].setText(f'{data_youtube[name][i]["url"]}')
+        elif name not in data_youtube and youtube.check_name_is_in_games_name(name) == False:
+            error = QMessageBox()
+            error.setWindowTitle('Предупреждение!!!')
+            error.setText('Вы ввели неправильное название игры, попробуйте ещё раз или '
+                          'нажмите "Просмотр всех названий игр".')
+            error.setIcon(QMessageBox.Warning)
+            error.exec_()
+
+        else:
+            error = QMessageBox()
+            error.setWindowTitle('Предупреждение!!!')
+            error.setText('Такая игра действительно существует, но, к сожалению, на данный момент в топ 50 по миру по '
+                          'ней нет ни одного стрима. Попробуйте другую игру.')
+            error.setIcon(QMessageBox.Warning)
+            error.exec_()
 
     # Функции для перехода между окнами
     def checkout_to_menu(self):
@@ -353,6 +370,7 @@ def main():
 
     menu.show()
     sys.exit(app.exec_())
+
 
 if __name__ == '__main__':
     main()

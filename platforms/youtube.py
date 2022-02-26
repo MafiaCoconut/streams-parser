@@ -25,6 +25,13 @@ def games_name_set(name):
         file.write(word)
 
 
+def check_name_is_in_games_name(name):
+    games_name = games_name_get()
+    # print(games_name)
+    if name in games_name:
+        return True
+    return False
+
 def get_data():
     page = requests.get(information.url, headers=information.headers)
     with open('../data/project.html', 'w', encoding='utf-8') as file:
@@ -142,4 +149,5 @@ def update_last_time():
 
 
 if __name__ == '__main__':
-    update_data()
+    # update_data()
+    check_name_is_in_games_name('Among Us')

@@ -9,7 +9,10 @@ facebook_gaming = '../data/facebook_gaming.json'
 database_time = {
         'youtube': ''
     }
-with open('../data/youtube.json', encoding='utf-8') as file:
-    data = json.load(file)
-    database_time['youtube'] = data['last_update_time']
-    print(database_time['youtube'])
+
+
+def update_last_time():
+    with open('../data/youtube.json', encoding='utf-8') as file:
+        data = json.load(file)
+        database_time['youtube'] = data['last_update_time']
+        print(database_time['youtube'])
