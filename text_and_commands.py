@@ -1,4 +1,4 @@
-import main1
+import test1
 
 
 def main_menu():
@@ -19,7 +19,7 @@ def recommendations():
           "популярных играх.")
     print("Приятного использования программы!!!")
     print()
-    main1.start()
+    test1.start()
 
 
 def choosing_a_platform(name):
