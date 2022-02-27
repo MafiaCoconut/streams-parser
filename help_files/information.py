@@ -10,9 +10,21 @@ database_time = {
         'youtube': ''
     }
 
+games_name = []
+
+
+
+def update_games_name():
+    with open('help_files/name_of_games.txt', encoding='utf-8') as file:
+        games_name = list(file.read().split(';'))
+        return games_name
+
 
 def update_last_time():
     with open('../data/youtube.json', encoding='utf-8') as file:
         data = json.load(file)
         database_time['youtube'] = data['last_update_time']
-        print(database_time['youtube'])
+        return database_time['youtube']
+        # print(database_time['youtube'])
+
+# print(update_last_time())

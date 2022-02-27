@@ -3,10 +3,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QApplication, QMessageBox
 # from menu.parser_page import ParserWindow
 # from menu import parser_page
-import platforms.youtube as youtube
+import youtube as youtube
 import help_files.information as information
-from time import sleep
-
+import json
 
 class Application(QMainWindow):
     def __init__(self):
@@ -72,7 +71,7 @@ class Application(QMainWindow):
         self.l_per_of_comletion = QtWidgets.QLabel(self.database_page)
         self.l_per_of_comletion.setGeometry(QtCore.QRect(300, 280, 250, 31))
         self.l_per_of_comletion.setObjectName("l_per_of_comletion")
-        self.tabWidget.addTab(self.database_page, "")
+        self.tabWidget.addTab(self.database_page, '1')
 
         # Страница с парсером
         self.parser_page = QtWidgets.QWidget()
@@ -219,6 +218,7 @@ class Application(QMainWindow):
         self.connect_buttoms()
         self.checkout_to_menu()
         # self.parser_page.show()
+        # self.tabWidget.setCurrentIndex(1)
 
     def retranslateUi(self, Application):
         _translate = QtCore.QCoreApplication.translate
@@ -232,7 +232,7 @@ class Application(QMainWindow):
         self.b_exit.setText(_translate("Application", "Выход"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.main_page), _translate("Application", "Menu"))
         self.label_6.setText(_translate("Application", "Последнее обновление базы данных было:"))
-        self.l_time.setText(_translate("Application", "время"))
+        self.l_time.setText(_translate("Application", self.update_last_time_update_database()))
         self.b_exit_4.setText(_translate("Application", "Назад"))
         self.b_update_database.setText(_translate("Application", "Обновить базу данных\nВнимание!!! Это займёт "
                                                                  "некоторое время, не отключайте программу"))
@@ -297,7 +297,7 @@ class Application(QMainWindow):
         self.b_exit_9.setText(_translate("Application", "Назад"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.recomendation_page),
                                   _translate("Application", "Recomendation"))
-        self.textBrowser.setText(_translate("Application", youtube.games_name_get_in_str()))
+        self.textBrowser.setText(_translate("Application", self.games_name_get_in_str()))
 
     def exit(self):
         sys.exit()
@@ -329,13 +329,16 @@ class Application(QMainWindow):
         self.update_last_time_update_database()
 
     def update_last_time_update_database(self):
-        information.update_last_time()
-        last_update = information.database_time['youtube'][:-4]
-        self.l_time.setText(last_update)
+        with open('data/youtube.json', encoding='utf-8') as file:
+            data = json.load(file)
+        last_update = data['last_update_time'][:-4]
+        self.l_time.setText(str(last_update))
 
     # Поиск спарсенных стримов
     def parser_search(self):
-        data_youtube = youtube.data_get()
+        with open('data/youtube.json', encoding='utf-8') as file:
+            data = json.load(file)
+        data_youtube = data
         name = self.text_name_of_game.toPlainText()
         if name in data_youtube:
             lst = [
@@ -371,8 +374,6 @@ class Application(QMainWindow):
 
     def checkout_to_database(self):
         self.tabWidget.setCurrentIndex(1)
-        # self.l_time.setText('Ready')
-        self.l_per_of_comletion.setText('')
         self.update_last_time_update_database()
 
     def checkout_to_parser(self):
@@ -383,6 +384,28 @@ class Application(QMainWindow):
 
     def checkout_to_recomendations(self):
         self.tabWidget.setCurrentIndex(4)
+
+    def games_name_get_in_str(self):
+        data = information.update_games_name()
+        data.sort()
+        data = data[1:]
+        data2 = ''
+        data1 = ''
+        x = 0
+        l = 0
+        for i in data:
+            if r"\u" in i:
+                continue
+            x += 1
+            if len(data1) + len(i) > 130:
+                data2 += data1 + '\n'
+                data1 = ''
+
+            data1 += i + ' ' * 7
+
+        if data1 not in data2:
+            data2 += data1
+        return data2
 
 
 def main():

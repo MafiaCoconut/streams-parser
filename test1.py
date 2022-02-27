@@ -1,23 +1,13 @@
-from platforms import youtube
+import youtube
 from help_files import information
 import text_and_commands
-
-import requests
-from requests.auth import HTTPBasicAuth
-import json
-import sqlite3
-
-import os
-import re
-import time
-from bs4 import BeautifulSoup
 
 
 # from selenium import webdriver
 
 
 def games_name_get():
-    with open('data/games_name', 'r', encoding='utf-8') as file:
+    with open('help_files/names_of_games', 'r', encoding='utf-8') as file:
         games_name = list(file.read().split(';'))
     return games_name
 

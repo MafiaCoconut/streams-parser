@@ -13,68 +13,50 @@ def data_get():
 
 
 def games_name_get():
-    with open('../data/games_name', 'r', encoding='utf-8') as file:
-        games_name = list(file.read().split(';'))
-    return games_name
+    with open('help_files/names_of_games', 'r', encoding='utf-8') as file:
+        names_of_games = list(file.read().split(';'))
+    # names_of_games = information.names_of_games
+    # games_name = information.update_games_name()
+    return names_of_games
 
 
 def games_name_set(name):
-    with open('../data/games_name', 'a', encoding='utf-8') as file:
+    with open('help_files/names_of_games', 'a', encoding='utf-8') as file:
         word = name + ';'
         file.write(word)
+    # information.names_of_games.append('dasdasdsadsad')
 
-
-def games_name_get_in_str():
-    data = games_name_get()[1:]
-    data.sort()
-    data = data[1:]
-    data2 = ''
-    data1 = ''
-    x = 0
-    l = 0
-    for i in data:
-        if r"\u" in i:
-            continue
-        x += 1
-        if len(data1) + len(i) > 130:
-            data2 += data1 + '\n'
-            data1 = ''
-
-        data1 += i + ' ' * 7
-
-    if data1 not in data2:
-        data2 += data1
-    return data2
 
 def check_name_is_in_games_name(name):
     games_name = games_name_get()
-    # print(games_name)
+    # print(names_of_games)
     if name in games_name:
         return True
     return False
 
+
 def get_data():
     page = requests.get(information.url, headers=information.headers)
-    with open('../data/project.html', 'w', encoding='utf-8') as file:
+    with open('data/project.html', 'w', encoding='utf-8') as file:
         file.write(page.text)
 
 
 def update_data():
     # Работа со сохранённой страницей
     get_data()
-    with open('../data/project.html', encoding='utf-8') as file:
+    with open('data/project.html', encoding='utf-8') as file:
         soup = BeautifulSoup(file.read(), 'lxml')
 
     scripts = soup.find('body').find_all('script')
     items = scripts[13]
     x = str(items)
     lst = x.split('"')
-
+    # print('1!!!!')
     urls = []
     name = ''
     data = {}
     games_name = games_name_get()
-    # print(games_name)
+    # print(names_of_games)
     for i in range(len(lst)):
         if lst[i] == 'title':
             name = lst[i + 4]
@@ -143,9 +125,9 @@ def update_data():
             data[name].append({'channel name': ch_name, 'video title': title, 'url': url})
         now = datetime.datetime.now()
         data['last_update_time'] = str(now)
-        with open(information.youtube, 'w', encoding='utf-8') as file:
+        with open('data/youtube.json', 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
-
+        # print('1111')
 
 def streams(name):
     data_youtube = data_get()
@@ -170,5 +152,8 @@ def update_last_time():
 
 
 if __name__ == '__main__':
-    # update_data()
-    check_name_is_in_games_name('Among Us')
+    pass
+    update_data()
+    # print(games_name_get())
+    # check_name_is_in_games_name('Among Us')
+    # games_name_set('dgs')
