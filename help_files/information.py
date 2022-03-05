@@ -26,5 +26,5 @@ def update_last_time():
         database_time['youtube'] = data['last_update_time']
         return database_time['youtube']
         # print(database_time['youtube'])
-
+x = []
 # print(update_last_time())
