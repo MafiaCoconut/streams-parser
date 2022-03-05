@@ -7,9 +7,11 @@ import text_and_commands
 
 
 def games_name_get():
+    x = []
     with open('help_files/names_of_games', 'r', encoding='utf-8') as file:
         games_name = list(file.read().split(';'))
     return games_name
+
 
 
 def working_with_databases():

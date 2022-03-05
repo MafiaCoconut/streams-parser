@@ -55,6 +55,7 @@ def parse_stream(games_list:list):
 def to_json(lst: list):
     t = {}
     j = 1
+    x = []
     for game in range(len(lst[0])):
         game_name = lst[0][game][32:]
         t[game_name] = {}

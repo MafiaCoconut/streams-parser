@@ -7,6 +7,7 @@ import test1
 
 
 def data_get():
+    x = []
     with open(information.youtube, encoding='utf-8') as file:
         data = json.load(file)
     return data

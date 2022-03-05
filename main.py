@@ -413,7 +413,7 @@ def main():
     menu = Application()
     menu.show()
     sys.exit(app.exec_())
-
+    #dfk x = []
 
 if __name__ == '__main__':
     main()
