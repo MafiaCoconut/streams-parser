@@ -70,6 +70,7 @@ def update_data():
                 data[name] = []
                 name = ''
 
+
     for game in range(50):
         name = urls[game][1]
         if game % 10 == 0:
