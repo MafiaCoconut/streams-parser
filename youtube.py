@@ -130,3 +130,8 @@ def update_data():
 
 if __name__ == '__main__':
     update_data()
+    # get_data()
+    # update_data()
+    # print(games_name_get())
+    # check_name_is_in_games_name('Among Us')
+    # games_name_set('dgs')
